@@ -14,6 +14,28 @@ const useStyle = makeStyles((theme) => ({
     color: "white",
     textAlign: "left",
     padding: "3vmax",
+    [theme.breakpoints.down("sm")]: {
+      "& div p": { wordWrap: "break-word" },
+      "& div": { position: "static", wordWrap: "break-word" },
+      "& .makeStyles-img-3": {
+        position: "absolute",
+        left: "0",
+        wordWrap: "break-word",
+      },
+      "& div h4 a": { wordWrap: "break-word" },
+      flexDirection: "column",
+      textAlign: "center",
+    },
+  },
+  resume_tet: {
+    position: "relative",
+    left: "20vmax",
+    top: "4vmax",
+  },
+  img: {
+    position: "fixed",
+    top: "8vmax",
+    left: "8vmax",
   },
   gardent01: {
     background:
@@ -29,15 +51,15 @@ function Resume() {
         className={`${classes.cont_box} ${classes.gardent01}`}
         style={{ position: "relative" }}
       >
-        <div style={{ position: "fixed", left: "8vmax", top: "8vmax" }}>
+        <div className={classes.img}>
           <img
             src={profile}
             alt="profile"
             style={{ border: "none", borderRadius: "4px", width: "16vmax" }}
           />
         </div>
-        <div style={{ position: "relative", left: "20vmax", top: "4vmax" }}>
-          <pre>
+        <div className={classes.resume_tet}>
+          <p>
             <h2>Objective :</h2>
             Looking to utilize broad knowledge of programming,
             <br />
@@ -56,17 +78,17 @@ function Resume() {
             <br />
             <br />
             <br />
-          </pre>
-          <pre>
+          </p>
+          <p>
             <h2>Experience :</h2>
             Three year experience of programming depend on different
             technologies: <br />
             Python, Nodejs, Solidty, mySql
-          </pre>
+          </p>
           <br />
           <br />
           <br />
-          <pre>
+          <p>
             <h2>Educational crouses :</h2>
             100 Days of Code: The Complete Python | udemy by Dr. Angela Yu,
             <br />
@@ -82,7 +104,7 @@ function Resume() {
             <br />
             <br />
             <br />
-          </pre>
+          </p>
         </div>
       </div>
     </>

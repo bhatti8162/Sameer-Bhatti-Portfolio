@@ -12,6 +12,11 @@ const useStyle = makeStyles((theme) => ({
     color: "white",
     textAlign: "left",
     padding: "3vmax",
+    [theme.breakpoints.down("sm")]: {
+      '& p h4':{fontSize:"2vmax"},
+      '& p h4 a':{wordWrap: "break-word",}
+    },
+  
   },
   gardent01: {
     background:

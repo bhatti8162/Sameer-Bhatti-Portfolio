@@ -12,6 +12,7 @@ const useStyle = makeStyles((theme) => ({
     color: "white",
     textAlign: "left",
     padding: "3vmax",
+
   },
   gardent01: {
     background:

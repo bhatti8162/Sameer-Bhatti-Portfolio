@@ -14,6 +14,12 @@ const useStyle = makeStyles((theme) => ({
     color: "white",
     textAlign: "left",
     padding: "3vmax",
+    wordWrap: "break-word",
+    [theme.breakpoints.down("sm")]: {
+      "& div h4": { fontSize: "1.6vmax", wordWrap: "break-word" },
+      "& div": { wordWrap: "break-word" },
+      "& div h4 a": { wordWrap: "break-word" },
+    },
   },
   gardent01: {
     background:
@@ -40,7 +46,7 @@ const GitHub = () => {
           console.log(error.response.headers);
         }
       });
-    console.log("repo",res.data);
+    console.log("repo", res.data);
     const data = res.data;
     setRepo(data);
     return data;
@@ -50,21 +56,20 @@ const GitHub = () => {
     getRepo();
   }, []);
 
-
   const classes = useStyle();
   return (
     <div className={`${classes.cont_box} ${classes.gardent01}`}>
       {repo &&
         repo.map((item, index) => (
-          <div key={index} style={{textAlign:"center"}}>
+          <div
+            key={index}
+            style={{ textAlign: "center", wordWrap: "break-word" }}
+          >
             {" "}
-            <h4>
-            {repo[index].description} :
+            <h4 style={{ wordWrap: "break-word" }}>
+              {repo[index].description} :
               <br />
-              <a
-                href={repo[index].html_url}
-                target="_blank"
-              >
+              <a href={repo[index].html_url} target="_blank">
                 {repo[index].html_url}
               </a>
             </h4>
