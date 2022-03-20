@@ -14,14 +14,14 @@ const useStyle = makeStyles((theme) => ({
     color: "white",
     textAlign: "left",
     padding: "3vmax",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down("md")]: {
       "& div p": { wordWrap: "break-word" },
       "& div": { position: "static", wordWrap: "break-word" },
-      "& .makeStyles-img-3": {
-        position: "absolute",
-        left: "0",
-        wordWrap: "break-word",
-      },
+      // "& .makeStyles-img-3": {
+      //   position: "absolute",
+      //   left: "0",
+      //   wordWrap: "break-word",
+      // },
       "& div h4 a": { wordWrap: "break-word" },
       flexDirection: "column",
       textAlign: "center",
