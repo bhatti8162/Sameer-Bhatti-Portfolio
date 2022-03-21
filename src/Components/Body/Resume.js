@@ -60,6 +60,16 @@ function Resume() {
         </div>
         <div className={classes.resume_tet}>
           <p>
+            <br />
+            <h2>Linkedin : </h2>
+            <a
+              href="https://www.linkedin.com/in/sameer-bhatti-8a2256235"
+              target="_blank"
+            >
+              linkedin.com/in/sameer-bhatti-8a2256235
+            </a>
+            <br />
+            <br />
             <h2>Objective :</h2>
             Looking to utilize broad knowledge of programming,
             <br />
