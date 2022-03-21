@@ -61,6 +61,6 @@ ul a:hover {
     flex-wrap: wrap;
   }
   #nav ul li a{
-   font-size: 2vmax;
+   font-size: 1vmax;
   }
 }
