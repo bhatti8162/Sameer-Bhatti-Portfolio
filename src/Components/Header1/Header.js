@@ -1,7 +1,8 @@
 import React from "react";
-import NavBar from "./Navbar";
+import NavBar from "./NavBar";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Resume from "../Body/Resume";
+import Live_Projects from "../Body/Live_Projects";
 import GitHub from "../Body/GitHub";
 import Contact from "../Body/Contact";
 import Home from "../Body/Home";

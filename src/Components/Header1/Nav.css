@@ -62,5 +62,6 @@ ul a:hover {
   }
   #nav ul li a{
    font-size: 1.2vmax;
+   font-weight: bold;
   }
 }

@@ -6,7 +6,7 @@ import { useState } from "react";
 
 const useStyle = makeStyles((theme) => ({
   cont_box: {
-    width: "100%",
+    maxWidth: "100%",
     minHeight: "100vh",
     display: "flex",
     justifyContent: "center",
