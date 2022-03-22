@@ -17,7 +17,7 @@ const useStyle = makeStyles((theme) => ({
     padding: "3vmax",
     wordWrap: "break-word",
     [theme.breakpoints.down("sm")]: {
-      "& div h4": { fontSize: "1.6vmax", wordWrap: "break-word" },
+      "& div h4": { fontSize: "1.2vmax", wordWrap: "break-word" },
       "& div": { wordWrap: "break-word" },
       "& div h4 a": { wordWrap: "break-word" },
     },

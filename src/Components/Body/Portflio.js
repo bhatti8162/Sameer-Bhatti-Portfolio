@@ -13,8 +13,7 @@ const useStyle = makeStyles((theme) => ({
     textAlign: "left",
     padding: "3vmax",
     [theme.breakpoints.down("sm")]: {
-      '& p h4':{fontSize:"2vmax"},
-      '& p h4 a':{wordWrap: "break-word",}
+      '& p h4':{fontSize:"1.5vmax"},      '& p h4 a':{wordWrap: "break-word",}
     },
   
   },
