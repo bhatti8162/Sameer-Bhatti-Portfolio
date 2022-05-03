@@ -12,7 +12,6 @@ const useStyle = makeStyles((theme) => ({
     color: "white",
     textAlign: "left",
     padding: "3vmax",
-
   },
   gardent01: {
     background:
@@ -25,7 +24,7 @@ const Home = () => {
   return (
     <div className={`${classes.cont_box} ${classes.gardent01}`}>
       <p>
-        <h1>Hi, there wellcome to our site</h1>
+        <h1>Hi, there welcome to our site</h1>
         <h4>
           my name is sameer bhatti and this is my portfolio website,
           <br /> to let you know about my work and experience,

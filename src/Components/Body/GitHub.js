@@ -1,6 +1,6 @@
 import { makeStyles } from "@mui/styles";
 import axios from "axios";
-import loader from "../img/Dual Ring-loader.gif"
+import loader from "../img/Dual Ring-loader.gif";
 import React, { useEffect } from "react";
 import { useState } from "react";
 
@@ -57,10 +57,12 @@ const GitHub = () => {
     getRepo();
   }, []);
 
+  console.log(repo);
+
   const classes = useStyle();
   return (
     <div className={`${classes.cont_box} ${classes.gardent01}`}>
-      {repo ?
+      {repo ? (
         repo.map((item, index) => (
           <div
             key={index}
@@ -76,7 +78,10 @@ const GitHub = () => {
             </h4>
             <br />
           </div>
-        )) : <img src={loader} />}
+        ))
+      ) : (
+        <img src={loader} />
+      )}
     </div>
   );
 };
