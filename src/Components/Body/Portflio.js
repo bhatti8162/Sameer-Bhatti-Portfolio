@@ -13,9 +13,9 @@ const useStyle = makeStyles((theme) => ({
     textAlign: "left",
     padding: "3vmax",
     [theme.breakpoints.down("sm")]: {
-      '& p h4':{fontSize:"1.5vmax"},      '& p h4 a':{wordWrap: "break-word",}
+      "& p h4": { fontSize: "1.5vmax" },
+      "& p h4 a": { wordWrap: "break-word" },
     },
-  
   },
   gardent01: {
     background:
@@ -38,8 +38,8 @@ const Portflio = () => {
         <h4>
           This is an ongoing MERN stack multivendor website :
           <br />
-          <a href="https://flexsolutionsbhatti.herokuapp.com/" target="_blank">
-            https://flexsolutionsbhatti.herokuapp.com
+          <a href="https://flex-solutions.onrender.com/" target="_blank">
+            https://flex-solutions.onrender.com
           </a>
         </h4>
         <br />
