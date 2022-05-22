@@ -54,8 +54,9 @@ function Resume() {
         <div className={classes.img}>
           <img
             src={profile}
-            alt="profile"
             style={{ border: "none", borderRadius: "4px", width: "16vmax" }}
+            alt="sameer bhatti"
+            title="sameerbhatti.com resume profile pic for sameer"
           />
         </div>
         <div className={classes.resume_tet}>
@@ -65,6 +66,7 @@ function Resume() {
             <a
               href="https://www.linkedin.com/in/sameer-bhatti-8a2256235"
               target="_blank"
+              alt="sameer bhatti linkedin.com/in/sameer-bhatti-8a2256235"
             >
               linkedin.com/in/sameer-bhatti-8a2256235
             </a>

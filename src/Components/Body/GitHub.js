@@ -72,7 +72,11 @@ const GitHub = () => {
             <h4 style={{ wordWrap: "break-word" }}>
               {repo[index].description} :
               <br />
-              <a href={repo[index].html_url} target="_blank">
+              <a
+                href={repo[index].html_url}
+                target="_blank"
+                title="sameer bhatti github"
+              >
                 {repo[index].html_url}
               </a>
             </h4>

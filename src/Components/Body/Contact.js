@@ -12,7 +12,6 @@ const useStyle = makeStyles((theme) => ({
     color: "white",
     textAlign: "left",
     padding: "3vmax",
-    
   },
   gardent01: {
     background:
@@ -28,20 +27,16 @@ const Contact = () => {
         <h4>
           Email :
           <br />
-          <a
-           href="mailto:sameerbhatti@btisoft.com"
-          >
-           sameerbhatti@btisoft.com
+          <a href="mailto:sameerbhatti@btisoft.com" title="sameer bhatti email">
+            sameerbhatti@btisoft.com
           </a>
         </h4>
         <br />
         <h4>
           Phone and whatsapp :
           <br />
-          <a
-            href="tel:+923460255803"
-          >
-           +923460255803
+          <a href="tel:+923460255803" title="sameer bhatti phone">
+            +923460255803
           </a>
         </h4>
         <br />

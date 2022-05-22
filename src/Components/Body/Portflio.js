@@ -30,7 +30,11 @@ const Portflio = () => {
       <p>
         <h4>
           This is a portflio landing page for PPC on netlify :<br />
-          <a href="https://upbeat-curie-dc2813.netlify.app" target="_blank">
+          <a
+            href="https://upbeat-curie-dc2813.netlify.app"
+            target="_blank"
+            title="sameer bhatti portfolio"
+          >
             https://upbeat-curie-dc2813.netlify.app
           </a>
         </h4>
@@ -38,7 +42,11 @@ const Portflio = () => {
         <h4>
           This is an ongoing MERN stack multivendor website :
           <br />
-          <a href="https://flex-solutions.onrender.com/" target="_blank">
+          <a
+            href="https://flex-solutions.onrender.com/"
+            target="_blank"
+            title="sameer bhatti portfolio"
+          >
             https://flex-solutions.onrender.com
           </a>
         </h4>
@@ -49,6 +57,7 @@ const Portflio = () => {
           <a
             href="https://wizardly-einstein-9b16eb.netlify.app"
             target="_blank"
+            title="sameer bhatti portfolio"
           >
             https://wizardly-einstein-9b16eb.netlify.app
           </a>
@@ -60,6 +69,7 @@ const Portflio = () => {
           <a
             href="https://relaxed-nightingale-03d4e5.netlify.app"
             target="_blank"
+            title="sameer bhatti portfolio"
           >
             https://relaxed-nightingale-03d4e5.netlify.app
           </a>

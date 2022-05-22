@@ -24,9 +24,13 @@ const Home = () => {
   return (
     <div className={`${classes.cont_box} ${classes.gardent01}`}>
       <p>
-        <h1>Hi, there welcome to our site</h1>
+        <h2>
+          Hi, there welcome to our site
+          <br />
+          My name is SAMEER BHATTI
+        </h2>
         <h4>
-          my name is sameer bhatti and this is my portfolio website,
+          and this is my portfolio website,
           <br /> to let you know about my work and experience,
           <br /> I am a professional programmer working most popular
           technologies like Python, Solidity, React, Nodejs, Css3.0 for advanced

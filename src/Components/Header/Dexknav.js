@@ -9,7 +9,7 @@ const headerStyle = makeStyles({
   DexBar: {
     position: "fixed",
     width: "100%",
-    backgroundColor:"#1E1926 !important"
+    backgroundColor: "#1E1926 !important",
   },
   font01: {
     color: "white",
@@ -30,9 +30,9 @@ export const Dexknav = () => {
       <AppBar className={classes.DexBar}>
         <Toolbar>
           <Typography
-            variant="h4"
+            variant="h1"
             color="white"
-            sx={{ wordWrap: "none", whiteSpace: "nowrap" }}
+            sx={{ wordWrap: "none", whiteSpace: "nowrap", fontSize: "40px" }}
           >
             SAMEER BHATTI
           </Typography>
