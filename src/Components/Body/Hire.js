@@ -13,12 +13,12 @@ const useStyle = makeStyles((theme) => ({
     flexDirection: "column",
     color: "white",
     textAlign: "left",
-    padding: "3vmax",
+    padding: "vmax",
   },
   hire_div: {
     display: "flex",
     justifyContent: "center",
-    flex: "wrap",
+    flexWrap: "wrap",
     alignItems: "center",
     padding: "3vmax",
   },
@@ -38,7 +38,7 @@ const Hire = () => {
       <div className={`${classes.hire_div}`}>
         <div>
           <a href="https://www.freelancer.com/u/sameer8162">
-            <h1>Hire me</h1>
+            <h1 style={{ whiteSpace: "nowrap" }}>Hire me</h1>
           </a>
         </div>
         <div className={`${classes.logo}`}>
@@ -51,7 +51,7 @@ const Hire = () => {
       <div className={`${classes.hire_div}`}>
         <div>
           <a href="https://www.upwork.com/freelancers/~016fc01c9c4889c1b2?viewMode=1">
-            <h1>Hire me</h1>
+            <h1 style={{ whiteSpace: "nowrap" }}>Hire me</h1>
           </a>
         </div>
         <div className={`${classes.logo}`}>
