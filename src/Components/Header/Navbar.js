@@ -26,7 +26,7 @@ const headerStyle = makeStyles({
 
 const Navbar = () => {
   const classes = headerStyle();
-  const mobileMedia = useMediaQuery("(max-width:600px)");
+  const mobileMedia = useMediaQuery("(max-width:1080px)");
 
   const [open, setOpen] = useState(false);
   const [menuopen, setMenuOpen] = useState(false);

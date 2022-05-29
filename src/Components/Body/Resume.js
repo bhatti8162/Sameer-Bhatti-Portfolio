@@ -56,17 +56,17 @@ function Resume() {
             src={profile}
             style={{ border: "none", borderRadius: "4px", width: "16vmax" }}
             alt="sameer bhatti"
-            title="sameerbhatti.com resume profile pic for sameer"
+            title="sameerbhatti.com resume profile pic for sameer bhatti"
           />
         </div>
         <div className={classes.resume_tet}>
           <p>
             <br />
-            <h2>Linkedin : </h2>
+            <h1>Linkedin : </h1>
             <a
               href="https://www.linkedin.com/in/sameer-bhatti-8a2256235"
               target="_blank"
-              alt="sameer bhatti linkedin.com/in/sameer-bhatti-8a2256235"
+              title="sameer bhatti resume"
             >
               linkedin.com/in/sameer-bhatti-8a2256235
             </a>

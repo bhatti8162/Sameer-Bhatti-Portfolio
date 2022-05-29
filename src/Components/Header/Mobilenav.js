@@ -12,10 +12,11 @@ const headerStyle = makeStyles({
     justifyContent: "center",
     alignItems: "center",
     width: "80vw",
-    backgroundColor:"#1E1926 !important"
+    backgroundColor: "#1E1926 !important",
   },
   font01: {
     color: "white",
+    whiteSpace: "nowrap !important",
   },
   display_block: {
     display: "block !important",
@@ -37,7 +38,11 @@ export const Mobilenav = ({ setMenuOpen }) => {
           src={logo}
           style={{ width: "25vmax", padding: "0px", marginBottom:'5vmax', marginTop:'5vmax',}}
         /> */}
-        <Typography variant="h4" color="white">
+        <Typography
+          variant="h1"
+          color="white"
+          sx={{ wordWrap: "none", whiteSpace: "nowrap", fontSize: "40px" }}
+        >
           SAMEER BHATTI
         </Typography>
         <br />

@@ -6,6 +6,7 @@ import GitHub from "../Body/GitHub";
 import Contact from "../Body/Contact";
 import Home from "../Body/Home";
 import Portflio from "../Body/Portflio";
+import Hire from "../Body/Hire";
 
 function Header() {
   return (
@@ -17,6 +18,7 @@ function Header() {
           <Route path="/" element={<Home />} />
           <Route path="/Resume" element={<Resume />} />
           <Route path="/Portflio" element={<Portflio />} />
+          <Route path="/Hire" element={<Hire />} />
           <Route path="/GitHub" element={<GitHub />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>

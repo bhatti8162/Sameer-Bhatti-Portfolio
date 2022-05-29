@@ -13,10 +13,11 @@ const headerStyle = makeStyles({
   },
   font01: {
     color: "white",
+    whiteSpace: "nowrap !important",
   },
   display_block: {
     display: "block !important",
-    marginRight: "2vmax !important",
+    margin: "2vmax !important",
     // backgroundColor:'red !important'
   },
 });

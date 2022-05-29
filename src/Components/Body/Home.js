@@ -23,23 +23,35 @@ const Home = () => {
   const classes = useStyle();
   return (
     <div className={`${classes.cont_box} ${classes.gardent01}`}>
-      <p>
-        <h2>
-          Hi, there welcome to our site
-          <br />
-          My name is SAMEER BHATTI
-        </h2>
-        <h4>
-          and this is my portfolio website,
-          <br /> to let you know about my work and experience,
-          <br /> I am a professional programmer working most popular
-          technologies like Python, Solidity, React, Nodejs, Css3.0 for advanced
-          level <br /> web and blockchain development,
-          <br /> I can make any kind of advanced UI with React, Material UI, and
-          Css3.0, and can make backend with all MySQL, NoSQL, Django, and
-          express.js, plus smart contracts (ERC20, ERC72) with, web3.py,
-          web3.js, Brownie, chainlink
-        </h4>
+      <h1 style={{ alignSelf: "start" }}>
+        SAMEER BHATTI
+        <hr style={{ width: "10vw" }} />
+      </h1>
+
+      <p style={{ alignSelf: "start" }}>
+        Hi, there welcome this is my portfolio website,
+        <br /> to let you know about my work and experience,
+        <br /> I am a professional programmer working most popular technologies{" "}
+        <br />
+        like Python, Solidity, React, Nodejs, Css3.0 for advanced level <br />{" "}
+        web and blockchain development,
+        <br /> I can make any kind of advanced UI with React, Material UI, and{" "}
+        <br />
+        Css3.0, and can make backend with all MySQL, NoSQL, Django, and <br />
+        express.js
+        <br />
+        <br />
+        plus I am a Blockchain full-stack developer, smart contracts (ERC20,
+        ERC72) with, web3.py, <br />
+        web3.js, Brownie, chainlink and openzeppelin contract as well
+        <br /> I can make any kind of smart contract as you require.
+        <br />
+        I have also good skills in Adobe Illustrator, and Adobe Photoshop,
+        <br />
+        to make any bussiness related graphic designing, cards, banners, web
+        desgins
+        <br />
+        and NFT ARTS as well
       </p>
     </div>
   );

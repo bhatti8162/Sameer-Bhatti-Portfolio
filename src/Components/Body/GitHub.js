@@ -14,7 +14,7 @@ const useStyle = makeStyles((theme) => ({
     flexDirection: "column",
     color: "white",
     textAlign: "left",
-    padding: "3vmax",
+    padding: "8vmax",
     wordWrap: "break-word",
     [theme.breakpoints.down("sm")]: {
       "& div h4": { fontSize: "1.2vmax", wordWrap: "break-word" },
