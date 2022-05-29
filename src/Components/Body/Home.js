@@ -36,6 +36,7 @@ const useStyle = makeStyles((theme) => ({
     // width: "40vw",
     position: "absolute",
     top: "10%",
+    marginBottom: "5vmax",
   },
   gardent01: {
     background:
@@ -64,7 +65,13 @@ const Home = () => {
           title="this photoshop edit for blockchain"
         />
       </div>
-      <h1 style={{ alignSelf: "start" }}>
+      <h1
+        style={
+          mobileMedia
+            ? { alignSelf: "start", marginTop: "200px" }
+            : { alignSelf: "start" }
+        }
+      >
         SAMEER BHATTI || Fullstack BlockChain, <br />
         Nodejs, And Python Developer
         <hr style={{ width: "10vw" }} />
