@@ -27,16 +27,19 @@ const Contact = () => {
         <h4>
           Email :
           <br />
-          <a href="mailto:sameerbhatti@btisoft.com" title="sameer bhatti email">
-            sameerbhatti@btisoft.com
+          <a
+            href="mailto:sameerbhatti8162@gmail.com"
+            title="sameer bhatti email"
+          >
+            sameerbhatti8162@gmail.com
           </a>
         </h4>
         <br />
         <h4>
           Phone and whatsapp :
           <br />
-          <a href="tel:+923460255803" title="sameer bhatti phone">
-            +923460255803
+          <a href="tel:+923102683892" title="sameer bhatti phone">
+            +923102683892
           </a>
         </h4>
         <br />
