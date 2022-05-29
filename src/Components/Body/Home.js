@@ -68,7 +68,7 @@ const Home = () => {
       <h1
         style={
           mobileMedia
-            ? { alignSelf: "start", marginTop: "240px" }
+            ? { alignSelf: "start", marginTop: "230px" }
             : { alignSelf: "start" }
         }
       >
