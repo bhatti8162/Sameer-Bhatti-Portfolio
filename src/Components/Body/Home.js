@@ -1,5 +1,7 @@
+import { useMediaQuery } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import React from "react";
+import blockchainimg from "../img/Blockchain Sameer.png";
 
 const useStyle = makeStyles((theme) => ({
   cont_box: {
@@ -13,6 +15,28 @@ const useStyle = makeStyles((theme) => ({
     textAlign: "left",
     padding: "3vmax",
   },
+  cont_box1: {
+    maxWidth: "100%",
+    minHeight: "200vh",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    flexDirection: "column",
+    color: "white",
+    textAlign: "left",
+    padding: "3vmax",
+  },
+  blockimg: {
+    width: "40vw",
+    position: "absolute",
+    top: "18%",
+    right: "0",
+  },
+  blockimg1: {
+    // width: "40vw",
+    position: "absolute",
+    top: "10%",
+  },
   gardent01: {
     background:
       "linear-gradient(29deg, rgba(2,0,36,1) 24%, rgba(69,4,88,1) 71%, rgba(62,57,184,1) 100%)",
@@ -20,11 +44,24 @@ const useStyle = makeStyles((theme) => ({
 }));
 
 const Home = () => {
+  const mobileMedia = useMediaQuery("(max-width:1080px)");
   const classes = useStyle();
   return (
-    <div className={`${classes.cont_box} ${classes.gardent01}`}>
+    <div
+      className={
+        mobileMedia
+          ? `${classes.cont_box1} ${classes.gardent01}`
+          : `${classes.cont_box} ${classes.gardent01}`
+      }
+    >
+      <div
+        className={mobileMedia ? `${classes.blockimg1}` : `${classes.blockimg}`}
+      >
+        <img src={blockchainimg} width={mobileMedia ? "300px" : "400px"} />
+      </div>
       <h1 style={{ alignSelf: "start" }}>
-        SAMEER BHATTI
+        SAMEER BHATTI || Fullstack BlockChain, <br />
+        Nodejs, And Python Developer
         <hr style={{ width: "10vw" }} />
       </h1>
 
