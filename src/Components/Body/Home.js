@@ -57,7 +57,12 @@ const Home = () => {
       <div
         className={mobileMedia ? `${classes.blockimg1}` : `${classes.blockimg}`}
       >
-        <img src={blockchainimg} width={mobileMedia ? "300px" : "400px"} />
+        <img
+          src={blockchainimg}
+          width={mobileMedia ? "300px" : "400px"}
+          alt="sameer bhatti blockchain"
+          title="this photoshop edit for blockchain"
+        />
       </div>
       <h1 style={{ alignSelf: "start" }}>
         SAMEER BHATTI || Fullstack BlockChain, <br />
