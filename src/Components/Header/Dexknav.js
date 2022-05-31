@@ -13,6 +13,9 @@ const headerStyle = makeStyles({
   },
   font01: {
     color: "white",
+    "&:hover": {
+      color: "#1A73E8",
+    },
     whiteSpace: "nowrap !important",
   },
   display_block: {

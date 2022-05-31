@@ -29,7 +29,7 @@ const useStyle = makeStyles((theme) => ({
   blockimg: {
     width: "40vw",
     position: "absolute",
-    top: "18%",
+    top: "22%",
     right: "0",
   },
   blockimg1: {
@@ -60,7 +60,7 @@ const Home = () => {
       >
         <img
           src={blockchainimg}
-          width={mobileMedia ? "300px" : "400px"}
+          width={mobileMedia ? "300px" : "440px"}
           alt="sameer bhatti blockchain"
           title="this photoshop edit for blockchain"
         />
@@ -72,9 +72,11 @@ const Home = () => {
             : { alignSelf: "start" }
         }
       >
-        SAMEER BHATTI || Fullstack BlockChain, <br />
-        Nodejs, And Python Developer
-        <hr style={{ width: "10vw" }} />
+        SAMEER BHATTI ||{" "}
+        <small style={{ fontSize: "22px" }}>
+          Fullstack BlockChain, <br />
+          Nodejs, And Python Developer
+        </small>
       </h1>
 
       <p style={{ alignSelf: "start" }}>
