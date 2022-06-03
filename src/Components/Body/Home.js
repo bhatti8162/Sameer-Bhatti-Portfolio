@@ -75,7 +75,7 @@ const Home = () => {
         SAMEER BHATTI ||{" "}
         <small style={{ fontSize: "22px" }}>
           Fullstack BlockChain, <br />
-          Nodejs, And Python Developer
+          Nodejs, And Python Engineer
         </small>
       </h1>
 
