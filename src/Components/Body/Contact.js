@@ -23,7 +23,15 @@ const Contact = () => {
   const classes = useStyle();
   return (
     <div className={`${classes.cont_box} ${classes.gardent01}`}>
-      <p>
+      <p style={{ textAlign: "center" }}>
+        <h2>
+          Contact me for Website, App, Blockchain, and Graphic Designing
+          Services,
+          <br /> I Provide end-to-end Project Development, Feel Free to Contact
+          Me, or you can Leave any Query on Whatsapp as well.
+        </h2>
+        <br />
+        {/* <br /> */}
         <h4>
           Email :
           <br />
