@@ -1,6 +1,6 @@
 import { useMediaQuery } from "@mui/material";
 import { makeStyles } from "@mui/styles";
-import React from "react";
+import React, { useEffect } from "react";
 import blockchainimg from "../img/Blockchain Sameer.png";
 
 const useStyle = makeStyles((theme) => ({
@@ -47,6 +47,7 @@ const useStyle = makeStyles((theme) => ({
 const Home = () => {
   const mobileMedia = useMediaQuery("(max-width:1080px)");
   const classes = useStyle();
+  
   return (
     <div
       className={
