@@ -73,7 +73,6 @@ const Home = () => {
             : { alignSelf: "start" }
         }
       >
-        SAMEER BHATTI ||{" "}
         <small style={{ fontSize: "22px" }}>
           Fullstack BlockChain, <br />
           Nodejs, And Python Engineer
