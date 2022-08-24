@@ -74,35 +74,34 @@ const Home = () => {
         }
       >
         <small style={{ fontSize: "22px" }}>
-          Fullstack BlockChain, <br />
-          Nodejs, And Python Engineer
+          Fullstack Nodejs, Python Engineer<br />
+          and Linux Admistrator
         </small>
       </h1>
 
       <p style={{ alignSelf: "start" }}>
         Hi, there welcome this is my portfolio website,
-        <br /> to let you know about my work and experience,
-        <br /> I am a professional programmer working most popular technologies{" "}
+        <br /> to let you know about my work,
+        <br /> I am a professional programmer working most popular technologies,{" "}
         <br />
-        like Python, Solidity, React, Nodejs, Css3.0 for advanced level <br />{" "}
-        web and blockchain development,
+        like Python, Nodejs, ShellScripting, Solidity, React, Css3.0 for advanced level <br />{" "}
+        development and linux admistration,
         <br /> I can make any kind of advanced UI with React, Material UI, and{" "}
         <br />
-        Css3.0, and can make backend with all MySQL, NoSQL, Django, and <br />
+        Css3.0, and i can make any backend with all MySQL, NoSQL, Django, and <br />
         express.js
         <br />
         <br />
-        plus I am a Blockchain full-stack developer, smart contracts (ERC20,
+        plus I can manage any Linux, Debian, Arch, RedHAt,<br />
+        and iam also a Blockchain full-stack developer, smart contracts (ERC20,
         ERC72) with, web3.py, <br />
         web3.js, Brownie, chainlink and openzeppelin contract as well
-        <br /> I can make any kind of smart contract as you require.
         <br />
         I have also good skills in Adobe Illustrator, and Adobe Photoshop,
         <br />
         to make any bussiness related graphic designing, cards, banners, web
         desgins
         <br />
-        and NFT ARTS as well
       </p>
     </div>
   );
