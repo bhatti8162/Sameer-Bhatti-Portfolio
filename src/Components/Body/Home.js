@@ -92,7 +92,7 @@ const Home = () => {
         express.js
         <br />
         <br />
-        plus I can manage any Linux, Debian, Arch, RedHAt,<br />
+        plus I can manage any Linux, Debian, Arch, RedHat,<br />
         and iam also a Blockchain full-stack developer, smart contracts (ERC20,
         ERC72) with, web3.py, <br />
         web3.js, Brownie, chainlink and openzeppelin contract as well
