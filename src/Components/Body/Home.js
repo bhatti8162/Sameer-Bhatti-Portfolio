@@ -75,7 +75,7 @@ const Home = () => {
       >
         <small style={{ fontSize: "22px" }}>
           Fullstack Nodejs, Python Engineer<br />
-          and Linux Admistrator
+          and Linux Adminstrator
         </small>
       </h1>
 
@@ -85,7 +85,7 @@ const Home = () => {
         <br /> I am a professional programmer working most popular technologies,{" "}
         <br />
         like Python, Nodejs, ShellScripting, Solidity, React, Css3.0 for advanced level <br />{" "}
-        development and linux admistration,
+        development and linux adminstration,
         <br /> I can make any kind of advanced UI with React, Material UI, and{" "}
         <br />
         Css3.0, and i can make any backend with all MySQL, NoSQL, Django, and <br />
