@@ -74,7 +74,7 @@ const Home = () => {
         }
       >
         <small style={{ fontSize: "22px" }}>
-          Fullstack Nodejs, Python Engineer<br />
+          Fullstack Python, Nodejs, C programming Engineer, Hacker<br />
           and Linux Administrator
         </small>
       </h1>
@@ -84,23 +84,23 @@ const Home = () => {
         <br /> to let you know about my work,
         <br /> I am a professional programmer working most popular technologies,{" "}
         <br />
-        like Python, Nodejs, ShellScripting, Solidity, React, Css3.0 for advanced level <br />{" "}
+        like Python, Nodejs, C Exploit development ShellScripting, BashScripting, Playwright Automation
+         React, Css3.0 for advanced level <br />{" "}
         development and linux administration,
-        <br /> I can make any kind of advanced UI with React, Material UI, and{" "}
+        <br /> I can make any kind of advanced automation in linux, and exploit development{" "}
         <br />
-        Css3.0, and i can make any backend with all MySQL, NoSQL, Django, and <br />
+        i can make very secure and advance websites in any niche with reactjs, Css3.0, and i can make any backend with all MySQL, NoSQL, Django, and <br />
         express.js
         <br />
         <br />
         plus I can manage any Linux, Debian, Arch, RedHat,<br />
-        and iam also a Blockchain full-stack developer, smart contracts (ERC20,
-        ERC72) with, web3.py, <br />
-        web3.js, Brownie, chainlink and openzeppelin contract as well
+        and also i am good at both defsec and offsec,<br />
+        with expert level of bugbounty experience
         <br />
-        I have also good skills in Adobe Illustrator, and Adobe Photoshop,
+        I have also good skills in software and web development
         <br />
-        to make any bussiness related graphic designing, cards, banners, web
-        desgins
+        with my services your existing or startup business can boostup at high speed
+        with guarantee security
         <br />
       </p>
     </div>
