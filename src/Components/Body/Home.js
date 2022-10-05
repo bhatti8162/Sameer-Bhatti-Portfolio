@@ -87,7 +87,7 @@ const Home = () => {
         like Python, Nodejs, C Exploit Development ShellScripting, BashScripting,
         <br /> Playwright Automation
          React, Css3.0 for Advanced Level <br />{" "}
-        Development and Linux Administration,
+        Development and Linux Administration,<br />
         <br />Advanced automation in linux, and exploit development{" "}
         <br />
         i can make very secure and advance websites in any niche with reactjs,
