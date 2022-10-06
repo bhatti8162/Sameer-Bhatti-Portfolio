@@ -25,9 +25,11 @@ const Contact = () => {
     <div className={`${classes.cont_box} ${classes.gardent01}`}>
       <p style={{ textAlign: "center" }}>
         <h2>
-          Contact me for Website, App, Blockchain, and Graphic Designing
-          Services,
-          <br /> I Provide end-to-end Project Development, Feel Free to Contact
+          Contact me for Website, App, Software Development,<br />
+          and OffSec, DefSec, Cyber Security, Linux Administration.
+          <br /> I have professional team that
+           Provide end-to-end Project Development and Security,
+          <br /> Feel Free to Contact
           Me, or you can Leave any Query on Whatsapp as well.
         </h2>
         <br />
@@ -44,7 +46,7 @@ const Contact = () => {
         </h4>
         <br />
         <h4>
-          Phone and whatsapp :
+          Phone and Whatsapp :
           <br />
           <a href="tel:+923102683892" title="sameer bhatti phone">
             +923102683892

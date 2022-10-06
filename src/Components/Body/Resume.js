@@ -72,12 +72,12 @@ function Resume() {
             </a>
             <br />
             <br />
-            <h2>Objective :</h2>
-            Looking to utilize broad knowledge of programming,
+            <h2>whoami :</h2>
+            Hacker, Engineer and Entrepreneur
             <br />
-            software engineering lifecycle,
+            with Expert level of skillset,
             <br />
-            and data management to perform programming
+            Project Managment,
             <br />
             and software development
             <br />
@@ -95,21 +95,13 @@ function Resume() {
             <h2>Experience :</h2>
             Three year experience of programming depend on different
             technologies: <br />
-            Python, Nodejs, Solidty, mySql
+            Python, Nodejs, C, GO, ruby, perl
           </p>
           <br />
           <br />
           <br />
           <p>
-            <h2>Educational crouses :</h2>
-            100 Days of Code: The Complete Python | udemy by Dr. Angela Yu,
-            <br />
-            Ethereum and Solidity: The Complete Developer's Guide | udemy by
-            Stephen Grider
-            <br />
-            <br />
-            <br />
-            <br />
+
             <br />
             <br />
             <br />

@@ -38,7 +38,17 @@ const Hire = () => {
       <div className={`${classes.hire_div}`}>
         <div>
           <a href="https://www.freelancer.com/u/sameer8162">
-            <h1 style={{ whiteSpace: "nowrap" }}>Hire me</h1>
+            <h1
+              style={{
+                margin:"20px",
+                textAlign:"center",
+                backgroundColor: "black",
+                padding: "10px 20px 10px 20px",
+                borderRadius: "10px",
+              }}
+            >
+              Click To Hire Me On Freelancer
+            </h1>
           </a>
         </div>
         <div className={`${classes.logo}`}>
@@ -51,7 +61,17 @@ const Hire = () => {
       <div className={`${classes.hire_div}`}>
         <div>
           <a href="https://www.upwork.com/freelancers/~016fc01c9c4889c1b2?viewMode=1">
-            <h1 style={{ whiteSpace: "nowrap" }}>Hire me</h1>
+            <h1
+              style={{
+                margin:"20px",
+                textAlign:"center",
+                backgroundColor: "black",
+                padding: "10px 20px 10px 20px",
+                borderRadius: "10px",
+              }}
+            >
+              Click To Hire Me On Upwork
+            </h1>
           </a>
         </div>
         <div className={`${classes.logo}`}>
@@ -60,6 +80,21 @@ const Hire = () => {
           </a>
         </div>
       </div>
+      <div>
+          <a href="/contact">
+            <h1
+              style={{
+                margin:"20px",
+                textAlign:"center",
+                backgroundColor: "black",
+                padding: "10px 20px 10px 20px",
+                borderRadius: "10px",
+              }}
+            >
+             Or Reach Me Directly: click to contact
+            </h1>
+          </a>
+        </div>
     </div>
   );
 };
