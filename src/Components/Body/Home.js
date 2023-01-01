@@ -74,7 +74,7 @@ const Home = () => {
         }
       >
         <small style={{ fontSize: "22px" }}>
-          Fullstack Python, Nodejs, C Programming Engineer, Hacker<br />
+          Fullstack Python, Nodejs, C Programming Engineer, <br />
           and Linux Administrator
         </small>
       </h1>
@@ -84,11 +84,11 @@ const Home = () => {
         <br /> to let you know about my work,
         <br /> I am a professional programmer working most popular technologies,{" "}
         <br />
-        like Python, Nodejs, C Exploit Development ShellScripting, BashScripting,
+        like Python, Nodejs, C programming, Artificial Inteligence , ShellScripting, BashScripting,
         <br /> Playwright Automation
          React, Css3.0 for Advanced Level <br />{" "}
         Development and Linux Administration,<br />
-        <br />Advanced automation in linux, and exploit development{" "}
+        <br />Advanced automation in linux, and programming{" "}
         <br />
         i can make very secure and advance websites in any niche with reactjs,
         <br />

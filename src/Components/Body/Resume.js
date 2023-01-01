@@ -73,7 +73,7 @@ function Resume() {
             <br />
             <br />
             <h2>whoami :</h2>
-            Hacker, Engineer and Entrepreneur
+            Programmer and Entrepreneur
             <br />
             with Expert level of skillset,
             <br />
