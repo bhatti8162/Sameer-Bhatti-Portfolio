@@ -84,11 +84,11 @@ const Home = () => {
         <br /> to let you know about my work,
         <br /> I am a professional programmer working most popular technologies,{" "}
         <br />
-        like Python, Nodejs, C programming, Artificial Inteligence , ShellScripting, BashScripting,
+        like Python, Nodejs, C programming, Artificial intelligence , ShellScripting, BashScripting,
         <br /> Playwright Automation
          React, Css3.0 for Advanced Level <br />{" "}
         Development and Linux Administration,<br />
-        <br />Advanced automation in linux, and programming{" "}
+        <br />Advanced automation in linux, artificial intelligence and programming{" "}
         <br />
         i can make very secure and advance websites in any niche with reactjs,
         <br />
