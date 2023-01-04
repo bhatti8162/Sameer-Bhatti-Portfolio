@@ -92,7 +92,7 @@ const Home = () => {
         <br />
         i can make very secure and advance websites in any niche with reactjs,
         <br />
-         Css3.0, and i can make any backend with all MySQL, NoSQL, Django, and <br />
+         Css3.0, and i can make any backend with all MySQL, NoSQL, Django, TensorFlow, Sklearn and <br />
         express.js
         <br />
         <br />
