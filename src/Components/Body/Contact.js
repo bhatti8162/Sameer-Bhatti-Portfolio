@@ -25,7 +25,7 @@ const Contact = () => {
     <div className={`${classes.cont_box} ${classes.gardent01}`}>
       <p style={{ textAlign: "center" }}>
         <h2>
-          Contact me for Website Apps ,Artificial intelligence, Software Development,<br />
+          Contact me for Website Apps, Artificial intelligence, Software Development,<br />
           and OffSec, DefSec, Cyber Security, Linux Administration.
           <br /> I have professional team that
            Provide end-to-end Project Development and Security,
