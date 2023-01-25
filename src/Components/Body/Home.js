@@ -75,6 +75,7 @@ const Home = () => {
       >
         <small style={{ fontSize: "22px" }}>
           Python, Artificial Intelligence, Linux and CyberSecurity
+          <br />
         </small>
       </h1>
 
