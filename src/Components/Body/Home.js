@@ -74,8 +74,7 @@ const Home = () => {
         }
       >
         <small style={{ fontSize: "22px" }}>
-          Fullstack Python, Artificial intelligence, C Programming, <br />
-          Nodejs and Linux Administrator
+          Python, Artificial Intelligence, Linux and CyberSecurity
         </small>
       </h1>
 
