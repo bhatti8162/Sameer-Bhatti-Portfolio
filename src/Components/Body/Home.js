@@ -99,7 +99,7 @@ const Home = () => {
         and also i am good at both defsec and offsec,<br />
         with expert level of bugbounty experience and
         <br />
-        skills like: kali linux, wireshark, brupsuite, nuclei, owasp top ten, osint,<br />
+        skills like: kali linux, wireshark, brupsuite, nuclei, WAF, owasp top ten, osint,<br />
         automation scripting, network security.
         <br />
         I have also good skills in software and web development.
