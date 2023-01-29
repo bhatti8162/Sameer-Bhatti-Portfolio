@@ -99,6 +99,8 @@ const Home = () => {
         and also i am good at both defsec and offsec,<br />
         with expert level of bugbounty experience and
         <br />
+        skills like: Kali linux, Wireshark, brupsuite, nuclei, owasp top ten, Osint, Automation Scripting, network security
+        <br />
         I have also good skills in software and web development.
         <br />
         with my services your existing or startup business can boostup at high speed
