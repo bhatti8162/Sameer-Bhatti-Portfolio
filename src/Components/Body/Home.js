@@ -84,7 +84,7 @@ const Home = () => {
         <br /> to let you know about my work,
         <br /> I am a professional programmer working most popular technologies,{" "}
         <br />
-        like Python, Nodejs, C programming, Artificial intelligence , ShellScripting, BashScripting,
+        like Python, Artificial intelligence, Data Science, Nodejs, C programming, BashScripting,
         <br /> Playwright Automation,
          React, Css3.0 for Advanced Level <br />{" "}
         Project Development and Linux Administration,<br />
@@ -92,7 +92,7 @@ const Home = () => {
         <br />
         Plus i can make very secure and advance websites in any niche with reactjs,
         <br />
-         Css3.0, and any backend with all MySQL, NoSQL, Django, TensorFlow, Sklearn, Pytorch<br /> and express.js
+         Css3.0, and any backend with all MySQL, Django, Pandas, Numpy, Statsmodels, TensorFlow, Sklearn, Pytorch<br /> and express.js
         <br />
         <br />
         plus I can manage any Linux, Debian, Arch, RedHat,<br />
