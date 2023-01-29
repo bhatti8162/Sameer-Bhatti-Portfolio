@@ -100,7 +100,7 @@ const Home = () => {
         with expert level of bugbounty experience and
         <br />
         skills like: kali linux, wireshark, brupsuite, nuclei, owasp top ten, osint,<br />
-        Automation Scripting, network security.
+        automation scripting, network security.
         <br />
         I have also good skills in software and web development.
         <br />
