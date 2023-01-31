@@ -82,7 +82,7 @@ const Home = () => {
       <p style={{ alignSelf: "start" }}>
         Hi, there welcome this is my portfolio website,
         <br /> to let you know about my work,
-        <br /> I am a professional programmer working most popular technologies,{" "}
+        <br /> I am a professional programmer working with most popular technologies,{" "}
         <br />
         like Python, Artificial intelligence, Data Science, Nodejs, C programming, BashScripting,
         <br /> Playwright Automation,
