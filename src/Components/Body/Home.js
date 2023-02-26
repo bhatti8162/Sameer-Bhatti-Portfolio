@@ -80,11 +80,30 @@ const Home = () => {
       </h1>
 
       <pre style={{ alignSelf: "start" }}>
-      Looking for a Python and AI end-to-end Project Expert? You're in the right place! With my extensive knowledge in Python, Artificial Intelligence, Data Science, and other technologies like Nodejs, C programming, BashScripting, Playwright Automation, React, and Css3.0 for Advanced Level Project Development and Linux Administration, I am confident that I am the right choice for your project.
+      Looking for a Python and AI end-to-end Project Expert?<br />
+      You're in the right place! With my extensive knowledge in<br />
+      Python, Artificial Intelligence, Data Science, <br />
+      and other technologies like Nodejs, C programming, <br />
+      BashScripting, Playwright Automation, React, <br />
+      and Css3.0 for Advanced Level Project Development and Linux Administration,<br />
+      I am confident that I am the right choice for your project. <br />
 
-      I offer advanced automation in Linux, artificial intelligence, and programming, and can also create secure and advanced websites in any niche with Reactjs, Css3.0, and any backend with MySQL, Django, Pandas, Numpy, Statsmodels, TensorFlow, Sklearn, Pytorch, and express.js. Additionally, I have extensive experience in managing Linux, Debian, Arch, and RedHat, and am well-versed in both defsec and offsec, with expert-level bugbounty experience and skills such as Kali Linux, Wireshark, Burpsuite, Nuclei, WAF, OWASP Top Ten, OSINT, automation scripting, and network security.
+      I offer advanced automation in Linux, artificial intelligence,<br />
+      and programming, and can also create secure and <br />
+      advanced websites in any niche with Reactjs, Css3.0,<br />
+      and any backend with MySQL, Django, Pandas, Numpy,<br />
+      Statsmodels, TensorFlow, Sklearn, Pytorch, and express.js.<br />
+      Additionally, I have extensive experience in managing Linux,<br />
+      Debian, Arch, and RedHat, and am well-versed in both defsec <br />
+      and offsec, with expert-level bugbounty experience and skills <br />
+      such as Kali Linux, Wireshark, Burpsuite, Nuclei, WAF,<br />
+      OWASP Top Ten, OSINT, automation scripting, and network security.<br />
 
-      With my services, your existing or startup business can boost up at high speed with guaranteed security. I offer a no upfront deposit policy, so you can place an order when you feel comfortable. Contact me today, and let's discuss how I can help you achieve your goals.
+      With my services, your existing or startup business<br />
+      can boost up at high speed with guaranteed security.<br />
+      I offer a no upfront deposit policy, <br />
+      so you can place an order when you feel comfortable.<br />
+      Contact me today, and let's discuss how I can help you achieve your goals.<br />
       </pre>
     </div>
   );
