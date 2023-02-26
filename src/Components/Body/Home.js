@@ -79,7 +79,7 @@ const Home = () => {
         </small>
       </h1>
 
-      <pre style={{ alignSelf: "start" }}>
+      <p style={{ alignSelf: "start" }}>
       Looking for a Python and AI end-to-end Project Expert?<br />
       You're in the right place! With my extensive knowledge in<br />
       Python, Artificial Intelligence, Data Science, <br />
@@ -106,7 +106,7 @@ const Home = () => {
       I offer a no upfront deposit policy, <br />
       so you can place an order when you feel comfortable.<br />
       Contact me today, and let's discuss how I can help you achieve your goals.<br />
-      </pre>
+      </p>
     </div>
   );
 };
