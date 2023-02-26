@@ -79,35 +79,13 @@ const Home = () => {
         </small>
       </h1>
 
-      <p style={{ alignSelf: "start" }}>
-        Hi, there welcome this is my portfolio website,
-        <br /> to let you know about my work,
-        <br /> I am a professional programmer working with most popular technologies,{" "}
-        <br />
-        like Python, Artificial intelligence, Data Science, Nodejs, C programming, BashScripting,
-        <br /> Playwright Automation,
-         React, Css3.0 for Advanced Level <br />{" "}
-        Project Development and Linux Administration,<br />
-        <br />Advanced automation in linux, artificial intelligence and programming{" "}
-        <br />
-        Plus i can make very secure and advance websites in any niche with reactjs,
-        <br />
-         Css3.0, and any backend with all MySQL, Django, Pandas, Numpy, Statsmodels, TensorFlow, Sklearn, Pytorch<br /> and express.js
-        <br />
-        <br />
-        plus I can manage any Linux, Debian, Arch, RedHat,<br />
-        and also i am good at both defsec and offsec,<br />
-        with expert level of bugbounty experience and
-        <br />
-        skills like: kali linux, wireshark, brupsuite, nuclei, WAF, owasp top ten, osint,<br />
-        automation scripting, network security.
-        <br />
-        I have also good skills in software and web development.
-        <br />
-        with my services your existing or startup business can boostup at high speed
-        with guarantee security
-        <br />
-      </p>
+      <pre style={{ alignSelf: "start" }}>
+      Looking for a Python and AI end-to-end Project Expert? You're in the right place! With my extensive knowledge in Python, Artificial Intelligence, Data Science, and other technologies like Nodejs, C programming, BashScripting, Playwright Automation, React, and Css3.0 for Advanced Level Project Development and Linux Administration, I am confident that I am the right choice for your project.
+
+      I offer advanced automation in Linux, artificial intelligence, and programming, and can also create secure and advanced websites in any niche with Reactjs, Css3.0, and any backend with MySQL, Django, Pandas, Numpy, Statsmodels, TensorFlow, Sklearn, Pytorch, and express.js. Additionally, I have extensive experience in managing Linux, Debian, Arch, and RedHat, and am well-versed in both defsec and offsec, with expert-level bugbounty experience and skills such as Kali Linux, Wireshark, Burpsuite, Nuclei, WAF, OWASP Top Ten, OSINT, automation scripting, and network security.
+
+      With my services, your existing or startup business can boost up at high speed with guaranteed security. I offer a no upfront deposit policy, so you can place an order when you feel comfortable. Contact me today, and let's discuss how I can help you achieve your goals.
+      </pre>
     </div>
   );
 };
