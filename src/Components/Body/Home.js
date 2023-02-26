@@ -87,7 +87,8 @@ const Home = () => {
       BashScripting, Playwright Automation, React, <br />
       and Css3.0 for Advanced Level Project Development and Linux Administration,<br />
       I am confident that I am the right choice for your project. <br />
-
+      <br />
+      <br />
       I offer advanced automation in Linux, artificial intelligence,<br />
       and programming, and can also create secure and <br />
       advanced websites in any niche with Reactjs, Css3.0,<br />
@@ -98,7 +99,8 @@ const Home = () => {
       and offsec, with expert-level bugbounty experience and skills <br />
       such as Kali Linux, Wireshark, Burpsuite, Nuclei, WAF,<br />
       OWASP Top Ten, OSINT, automation scripting, and network security.<br />
-
+      <br />
+      <br />
       With my services, your existing or startup business<br />
       can boost up at high speed with guaranteed security.<br />
       I offer a no upfront deposit policy, <br />
