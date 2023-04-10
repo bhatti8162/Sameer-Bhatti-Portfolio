@@ -30,7 +30,7 @@ const useStyle = makeStyles((theme) => ({
     width: "40vw",
     position: "absolute",
     top: "22%",
-    right: "0",
+    left: "5%",
   },
   blockimg1: {
     // width: "40vw",
@@ -40,7 +40,7 @@ const useStyle = makeStyles((theme) => ({
   },
   gardent01: {
     background:
-      "linear-gradient(29deg, rgba(2,0,36,1) 24%, rgba(69,4,88,1) 71%, rgba(62,57,184,1) 100%)",
+    "radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 9%, rgba(10,3,82,1) 100%)"
   },
 }));
 
@@ -66,47 +66,27 @@ const Home = () => {
           title="this photoshop edit for blockchain"
         />
       </div>
-      <h1
-        style={
-          mobileMedia
-            ? { alignSelf: "start", marginTop: "500px" }
-            : { alignSelf: "start" }
-        }
-      >
-        <small style={{ fontSize: "22px" }}>
-          Python, Artificial Intelligence, Linux and CyberSecurity
-          <br />
-        </small>
-      </h1>
+      <div style={{ alignSelf: "end", textAlign:"center" }}>
+        <h1
+          style={
+            mobileMedia
+              ? { alignSelf: "start", marginTop: "500px" }
+              : { fontSize: "50px" }
+          }
+        >
+          Entrepreneur and Hacker | Sameer Bhatti
+            <br />
+        </h1>
 
-      <p style={{ alignSelf: "start" }}>
-      Looking for a Python and AI end-to-end Project Expert?<br />
-      You're in the right place! With my extensive knowledge in<br />
-      Python, Artificial Intelligence, Data Science, <br />
-      and other technologies like Nodejs, C programming, <br />
-      BashScripting, Playwright Automation, React, <br />
-      and Css3.0 for Advanced Level Project Development and Linux Administration,<br />
-      I am confident that I am the right choice for your project. <br />
-      <br />
-      <br />
-      I offer advanced automation in Linux, artificial intelligence,<br />
-      and programming, and can also create secure and <br />
-      advanced websites in any niche with Reactjs, Css3.0,<br />
-      and any backend with MySQL, Django, Pandas, Numpy,<br />
-      Statsmodels, TensorFlow, Sklearn, Pytorch, and express.js.<br />
-      Additionally, I have extensive experience in managing Linux,<br />
-      Debian, Arch, and RedHat, and am well-versed in both defsec <br />
-      and offsec, with expert-level bugbounty experience and skills <br />
-      such as Kali Linux, Wireshark, Burpsuite, Nuclei, WAF,<br />
-      OWASP Top Ten, OSINT, automation scripting, and network security.<br />
-      <br />
-      <br />
-      With my services, your existing or startup business<br />
-      can boost up at high speed with guaranteed security.<br />
-      I offer a no upfront deposit policy, <br />
-      so you can place an order when you feel comfortable.<br />
-      Contact me today, and let's discuss how I can help you achieve your goals.<br />
-      </p>
+        <p>
+        I am businessman and hacker.<br />
+        i have skillset of Python, CyberSecurity, Artificial Intelligence, Data Science, <br />
+        and technologies like Nodejs, C programming, Expoilt Development, <br />
+        Social Engineering, Web Security, Network Security, <br />
+        BashScripting, Playwright Automation, Reactjs, OS Development,<br />
+        Kali, Arch, Fedora and Linux Administration,<br />
+        </p>
+      </div>
     </div>
   );
 };
