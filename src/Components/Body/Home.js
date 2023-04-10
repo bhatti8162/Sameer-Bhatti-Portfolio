@@ -40,7 +40,7 @@ const useStyle = makeStyles((theme) => ({
   },
   gardent01: {
     background:
-    "radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(2,0,36,1) 9%, rgba(10,3,82,1) 100%)"
+    "radial-gradient(circle, rgba(0,0,0,0.8603816526610644) 0%, rgba(0,0,0,1) 9%, rgba(7,1,66,1) 100%)"
   },
 }));
 
@@ -85,6 +85,18 @@ const Home = () => {
         Social Engineering, Web Security, Network Security, <br />
         BashScripting, Playwright Automation, Reactjs, OS Development,<br />
         Kali, Arch, Fedora and Linux Administration,<br />
+        <br />
+        <br />
+        <h4>
+          Email :
+          <br />
+          <a
+            href="mailto:sameerbhatti8162@gmail.com"
+            title="sameer bhatti email"
+          >
+            sameerbhatti8162@gmail.com
+          </a>
+        </h4>
         </p>
       </div>
     </div>
