@@ -93,7 +93,7 @@ const Home = () => {
             href="mailto:sameerbhatti8162@gmail.com"
             title="sameer bhatti email"
           >
-            sameerbhatti8162@gmail.com
+             sameerbhatti8162@gmail.com
           </a>
         </h4>
         <h4>
@@ -102,7 +102,7 @@ const Home = () => {
             href="https://www.upwork.com/freelancers/~016fc01c9c4889c1b2?viewMode=1"
             title="sameer bhatti upwork"
           >
-            Sameer Bhatti upwork
+             Sameer Bhatti upwork
           </a>
         </h4>
         <h4>
@@ -111,7 +111,7 @@ const Home = () => {
             href="https://www.linkedin.com/in/sameer-bhatti-8a2256235/"
             title="sameer bhatti linkedin"
           >
-            https://www.linkedin.com/in/sameer-bhatti-8a2256235/
+             https://www.linkedin.com/in/sameer-bhatti-8a2256235/
           </a>
         </h4>
         </p>
