@@ -90,23 +90,15 @@ const Home = () => {
         <h4>
           Email : &nbsp;
           <a
-            href="mailto:sameerbhatti8162@gmail.com"
+            href="mailto:pip3lee101@gmail.com"
             title="sameer bhatti email"
           >
-            sameerbhatti8162@gmail.com
+            pip3lee101@gmail.com
           </a>
         </h4>
+        
         <h4>
-          upwork : &nbsp;
-          <a
-            href="https://www.upwork.com/freelancers/~016fc01c9c4889c1b2?viewMode=1"
-            title="sameer bhatti upwork"
-          >
-            Sameer Bhatti upwork
-          </a>
-        </h4>
-        <h4>
-          linkedin : &nbsp;
+          Linkedin : &nbsp;
           <a
             href="https://www.linkedin.com/in/sameer-bhatti-8a2256235/"
             title="sameer bhatti linkedin"
@@ -114,6 +106,27 @@ const Home = () => {
             https://www.linkedin.com/in/sameer-bhatti-8a2256235/
           </a>
         </h4>
+
+        <h4>
+          Upwork : &nbsp;
+          <a
+            href="https://www.upwork.com/freelancers/~016fc01c9c4889c1b2?viewMode=1"
+            title="sameer bhatti upwork"
+          >
+            https://www.upwork.com/freelancers/~016fc01c9c4889c1b2
+          </a>
+        </h4>
+
+        <h4>
+          Whatsapp : &nbsp;
+          <a
+            href="https://wa.me/message/RNLGOO5TNB4GC1"
+            title="sameer bhatti upwork"
+          >
+            https://wa.me/message/RNLGOO5TNB4GC1
+          </a>
+        </h4>
+
         </p>
       </div>
     </div>
