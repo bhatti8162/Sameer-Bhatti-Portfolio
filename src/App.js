@@ -11,8 +11,8 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
-        {/* <Header /> */}
-        <Home />
+        <Header />
+        {/* <Home /> */}
       </div>
     </ThemeProvider>
   );

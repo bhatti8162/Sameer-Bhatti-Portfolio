@@ -3,13 +3,17 @@ import { Link } from "react-router-dom";
 import { AppBar, Button, Typography, Toolbar } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 // import logo from "../../../img/BTisoft.png";
-import { Navlink } from "./NavLink";
+import { Navlink, ProfileLink } from "./NavLink";
 
 const headerStyle = makeStyles({
   DexBar: {
     position: "fixed",
     width: "100%",
+    marginBottom: "50px",
     backgroundColor: "#1E1926 !important",
+  },
+  DevA:{
+    marginRight:"50px"
   },
   font01: {
     color: "white",
@@ -20,11 +24,11 @@ const headerStyle = makeStyles({
   },
   display_block: {
     display: "block !important",
-    margin: "2vmax !important",
+    margin: "1vmax !important",
     // backgroundColor:'red !important'
   },
 });
-const data = Navlink;
+const data = ProfileLink;
 
 export const Dexknav = () => {
   const classes = headerStyle();
@@ -42,17 +46,22 @@ export const Dexknav = () => {
           </Typography>
           <div style={{ width: "100%" }}></div>
           {data.map((item, index) => (
-            <Button
-              key={index}
-              component={Link}
-              to={data[index].to}
-              className={classes.display_block}
-              color="primary"
-            >
+            // <Button
+            //   key={index}
+            //   component={Link}
+            //   to={data[index].to}
+            //   className={classes.display_block}
+            //   color="primary"
+            // >
+            //   <Typography className={classes.font01}>
+            //     {data[index].name}
+            //   </Typography>
+            // </Button>
+            <a href={data[index].to}  className={classes.DevA} >
               <Typography className={classes.font01}>
                 {data[index].name}
               </Typography>
-            </Button>
+            </a>
           ))}
         </Toolbar>
       </AppBar>

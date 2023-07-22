@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { AppBar, Button, Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 // import logo from "../../../img/BTisoft.png";
-import { Navlink } from "./NavLink";
+import { Navlink, ProfileLink } from "./NavLink";
 
 const headerStyle = makeStyles({
   mobileAppBar: {
@@ -26,7 +26,7 @@ const headerStyle = makeStyles({
     "&:hover": {},
   },
 });
-const data = Navlink;
+const data = ProfileLink;
 
 export const Mobilenav = ({ setMenuOpen }) => {
   const classes = headerStyle();
@@ -47,20 +47,25 @@ export const Mobilenav = ({ setMenuOpen }) => {
         </Typography>
         <br />
         {data.map((item, index) => (
-          <Button
-            key={index}
-            component={Link}
-            to={data[index].to}
-            className={classes.display_block}
-            color="primary"
-            onClick={() => {
-              setMenuOpen(false);
-            }}
-          >
-            <Typography className={`${classes.font01} hover`}>
-              {data[index].name}
-            </Typography>
-          </Button>
+          // <Button
+          //   key={index}
+          //   component={Link}
+          //   to={data[index].to}
+          //   className={classes.display_block}
+          //   color="primary"
+          //   onClick={() => {
+          //     setMenuOpen(false);
+          //   }}
+          // >
+          //   <Typography className={`${classes.font01} hover`}>
+          //     {data[index].name}
+          //   </Typography>
+          // </Button>
+          <a href={data[index].to}  className={classes.DevA} >
+          <Typography className={classes.font01}>
+            {data[index].name}
+          </Typography>
+        </a>
         ))}
       </AppBar>
     </>

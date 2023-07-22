@@ -24,6 +24,7 @@ const useStyles = makeStyles((theme) => ({
   image: {
     width: "100%", // To make the image responsive
     maxWidth: "300px", // Set a maximum width for larger screens
+    margin:"30px"
   },
   content: {
     textAlign: "center",
