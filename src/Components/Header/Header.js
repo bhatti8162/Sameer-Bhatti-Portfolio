@@ -15,12 +15,12 @@ function Header() {
         <NavBar />
         <Routes>
           <Route path="/Home" element={<Home />} />
-          <Route path="/" element={<Home />} />
-          <Route path="/Resume" element={<Resume />} />
+          <Route path="/*" element={<Home />} />
+          {/* <Route path="/Resume" element={<Resume />} />
           <Route path="/Portflio" element={<Portflio />} />
           <Route path="/Hire" element={<Hire />} />
           <Route path="/GitHub" element={<GitHub />} />
-          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Contact" element={<Contact />} /> */}
         </Routes>
       </Router>
     </div>
