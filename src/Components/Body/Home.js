@@ -74,7 +74,7 @@ const Home = () => {
           delves into the depths of intricate systems, unraveling
           vulnerabilities and devising ingenious solutions to protect against
           potential threats. His prowess in the field is demonstrated by his
-          remarkable achievement of being ranked in the <b>Top 11%</b> percent
+          remarkable achievement of being ranked in the <b>Top 5%</b> percent
           on TryHackMe, a testament to his exceptional abilities and commitment
           to continuous improvement.
           <br />
