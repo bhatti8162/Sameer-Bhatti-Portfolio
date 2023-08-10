@@ -8,6 +8,7 @@ exports.Navlink = [
 ];
 
 exports.ProfileLink = [
+  { name: "Lee101sec", to: "https://lee101sec.com/" },
   { name: "Upwork", to: "https://www.upwork.com/freelancers/~016fc01c9c4889c1b2" },
   { name: "TryHackMe", to: "https://tryhackme.com/p/pip3lee101" },
   // { name: "Portflio", to: "/Portflio" },

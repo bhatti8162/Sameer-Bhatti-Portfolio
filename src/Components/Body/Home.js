@@ -65,7 +65,7 @@ const Home = () => {
         </h1>
         <p className={classes.pre}>
           Meet Sameer Bhatti,a brilliant mind in the realms of cybersecurity and
-          entrepreneurship, widely recognized as Lee101 within the digital
+          entrepreneurship, widely recognized as Lee101, CEO of <a href="https://lee101sec.com/">lee101sec.com</a> within the digital
           world. With an exceptional skill set and an unwavering passion for all
           things cyber, Sameer has earned his reputation as a formidable hacker
           and a seasoned entrepreneur.
@@ -82,42 +82,20 @@ const Home = () => {
           significant strides in securing our interconnected world while leaving
           an indelible mark on the technology industry.
         </p>
-        <p className={classes.pre}>
-          <h1>Why Choose Us?</h1>
-          <h5>Expertise that Matters:</h5>At the heart of our cybersecurity
-          services lies a highly skilled and dedicated team of professionals,
-          each possessing a wealth of experience in the ever-evolving landscape
-          of digital security. Led by industry luminary Sameer Bhatti, who is
-          renowned in cyber circles as Lee101, our team comprises seasoned
-          experts with a proven track record of safeguarding businesses and
-          individuals from cyber threats across diverse sectors.
-          <br />
-          <h5>Advanced Solutions:</h5> Stay one step ahead of cybercriminals
-          with our state-of-the-art solutions. From penetration testing and
-          vulnerability assessments to real-time threat monitoring, our arsenal
-          of cutting-edge tools ensures your defenses are impenetrable.
-          <br />
-          <h6>Tailored for You:</h6>We understand that every client is unique,
-          and so are their security needs. Our services are customized to match
-          your specific requirements, ensuring that you get the protection you
-          need without any unnecessary extras.
-          <br />
-          <h5>24/7 Vigilance:</h5> Cyber threats never rest, and neither do we.
-          Our dedicated team of experts provides round-the-clock monitoring and
-          support, swiftly responding to any potential incidents, so you can
-          have peace of mind day and night.
-          <br />
-          <h5>Proactive Approach:</h5> We believe in staying proactive rather
-          than reactive. By identifying potential weaknesses before they become
-          exploits, we help you prevent attacks rather than dealing with the
-          aftermath.
-        </p>
+        
         <p>
           <h1>Contact US</h1>
           <h4>
+            Company : &nbsp;
+            <a href="https://lee101sec.com/" title="https://lee101sec.com/">
+            https://lee101sec.com/
+            </a>
+          </h4>
+
+          <h4>
             Email : &nbsp;
-            <a href="mailto:pip3lee101@gmail.com" title="sameer bhatti email">
-              pip3lee101@gmail.com
+            <a href="mailto:lee101sec@gmail.com" title="https://lee101sec.com/">
+              lee101sec@gmail.com
             </a>
           </h4>
 
