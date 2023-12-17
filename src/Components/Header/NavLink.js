@@ -13,7 +13,7 @@ exports.ProfileLink = [
   { name: "TryHackMe", to: "https://tryhackme.com/p/pip3lee101" },
   // { name: "Portflio", to: "/Portflio" },
   { name: "Linkedin", to: "https://www.linkedin.com/in/sameer-bhatti-8a2256235/" },
-  { name: "Email", to: "mailto:pip3lee101@gmail.com" },
+  { name: "Email", to: "mailto:lee101sec@gmail.com" },
   { name: "Contact US", to: "https://wa.me/message/RNLGOO5TNB4GC1" },
 ];
 

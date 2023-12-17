@@ -5,7 +5,20 @@ import blockchainimg from "../img/Blockchain Sameer.png";
 import upworklogo from "../img/upwork-logo-png-transparent.png";
 
 const useStyles = makeStyles((theme) => ({
-  cont_box: {
+  cont_box_desktop: {
+    // position: "fixed",
+    maxWidth: "100%",
+    minHeight: "100vh",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    flexDirection: "column",
+    color: "white",
+    padding: "50px",
+    wordBreak: "keep-all",
+  },
+  cont_box_mobile: {
+    // position: "fixed",
     maxWidth: "100%",
     minHeight: "100vh",
     display: "flex",
@@ -24,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
   image: {
     width: "100%", // To make the image responsive
     maxWidth: "300px", // Set a maximum width for larger screens
-    margin:"30px"
+    margin: "30px",
   },
   content: {
     textAlign: "center",
@@ -46,7 +59,11 @@ const Home = () => {
   const classes = useStyles();
 
   return (
-    <div className={`${classes.cont_box} ${classes.gardent01}`}>
+    <div
+      className={`${
+        mobileMedia ? classes.cont_box_mobile : classes.cont_box_desktop
+      } ${classes.gardent01}`}
+    >
       <img
         src={blockchainimg}
         className={classes.image}
@@ -64,7 +81,17 @@ const Home = () => {
           <br />
         </h1>
         <p className={classes.pre}>
-          Meet Sameer Bhatti,a brilliant mind in the realms of cybersecurity and
+          Meet Sameer Bhatti, CEO of{" "}
+          <a href="https://lee101sec.com/" style={{ color: "#ffffff" }}>
+            Lee101Sec
+          </a>
+          , a cybersecurity expert ranked in the Top 5% on TryHackMe. <br />
+          As a visionary leader, he secures our interconnected world, leaving a
+          lasting impact on the tech industry.{" "}
+          <a href="mailto:lee101sec@gmail.com" style={{ color: "#ffffff" }}>
+            Email Me
+          </a>
+          {/* Meet Sameer Bhatti, a brilliant mind in the realms of cybersecurity and
           entrepreneurship, widely recognized as Lee101, CEO of <a href="https://lee101sec.com/">lee101sec.com</a> within the digital
           world. With an exceptional skill set and an unwavering passion for all
           things cyber, Sameer has earned his reputation as a formidable hacker
@@ -80,96 +107,9 @@ const Home = () => {
           <br />
           digital world finds a skilled defender and a visionary leader, making
           significant strides in securing our interconnected world while leaving
-          an indelible mark on the technology industry.
-        </p>
-        
-        <p>
-          <h1>Contact US</h1>
-          <h4>
-            Company : &nbsp;
-            <a href="https://lee101sec.com/" title="https://lee101sec.com/">
-            https://lee101sec.com/
-            </a>
-          </h4>
-
-          <h4>
-            Email : &nbsp;
-            <a href="mailto:lee101sec@gmail.com" title="https://lee101sec.com/">
-              lee101sec@gmail.com
-            </a>
-          </h4>
-
-          <h4>
-            Linkedin : &nbsp;
-            <a
-              href="https://www.linkedin.com/in/sameer-bhatti-8a2256235/"
-              title="sameer bhatti linkedin"
-            >
-              https://www.linkedin.com/in/sameer-bhatti-8a2256235/
-            </a>
-          </h4>
-
-          <h4>
-            Upwork : &nbsp;
-            <a
-              href="https://www.upwork.com/freelancers/~016fc01c9c4889c1b2?viewMode=1"
-              title="sameer bhatti upwork"
-            >
-              https://www.upwork.com/freelancers/~016fc01c9c4889c1b2
-            </a>
-          </h4>
-
-          <h4>
-            TryHackMe : &nbsp;
-            <a
-              href="https://tryhackme.com/p/pip3lee101"
-              title="sameer bhatti upwork"
-            >
-              https://tryhackme.com/p/pip3lee101
-            </a>
-          </h4>
-
-          <h4>
-            Whatsapp : &nbsp;
-            <a
-              href="https://wa.me/message/RNLGOO5TNB4GC1"
-              title="sameer bhatti upwork"
-            >
-              https://wa.me/message/RNLGOO5TNB4GC1
-            </a>
-          </h4>
+          an indelible mark on the technology industry. */}
         </p>
       </div>
-      
-      <a
-        href="https://www.upwork.com/freelancers/~016fc01c9c4889c1b2?viewMode=1"
-        style={{
-          position: "sticky",
-          bottom: "10px",
-          right: "0",
-          left: "90%",
-        }}
-      >
-        {" "}
-        <img width={"200px"} src={upworklogo} alt="=UpWork"></img>
-      </a>
-
-      <a
-        href="https://tryhackme.com/p/pip3lee101"
-        style={{
-          position: "sticky",
-          bottom: "10px",
-          right: "0",
-          left: "90%",
-        }}
-      >
-        {" "}
-        <img
-          src="https://tryhackme-badges.s3.amazonaws.com/pip3lee101.png"
-          alt="TryHackMe"
-        ></img>
-      </a>
-
     </div>
   );
 };
