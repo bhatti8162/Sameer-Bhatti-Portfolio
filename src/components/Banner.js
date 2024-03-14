@@ -12,10 +12,9 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
   const toRotate = [
-    "Hacker",
     "Certified in Cyber Security",
-    "Cyber Security Expert",
-    "Network Expert",
+    "Security Engineer Associate",
+    "Cloud Security",
   ];
   const period = 2000;
 
@@ -74,16 +73,17 @@ export const Banner = () => {
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "Hacker", "Certified in Cyber Security", "Cyber Security Expert", "Network Administrator" ]'
+                      data-rotate='["Certified in Cyber Security", "Security Engineer Associate", "Cloud Security" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                    A cybersecurity Engineer ranked in the Top
-                    5% on TryHackMe. As a visionary leader, he secures our
-                    interconnected world, leaving a lasting impact on the tech
-                    industry.
+                    with 5+ years of hands-on experience, top-ranking on
+                    TryHackMe, and industry-standard certifications. With a
+                    track record of safeguarding digital assets and delivering
+                    over 7-figure value, they continuously update skills to
+                    counter evolving threats.
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />

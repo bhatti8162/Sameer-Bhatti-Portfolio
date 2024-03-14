@@ -60,6 +60,7 @@ export const Contact = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h2>Get In Touch</h2>
                 <h5>Email: <a href="mailto:sameerbhatti8162@gmail.com" target="_blank" style={{color:"white", textDecoration:"none"}}>sameerbhatti8162@gmail.com</a> </h5>
+                <h5>Upwork: <a href="https://www.upwork.com/freelancers/~016fc01c9c4889c1b2?viewMode=1" target="_blank" style={{color:"white", textDecoration:"none"}}>upwork.com/freelancers/~016fc01c9c4889c1b2</a> </h5>
                 <h5>Linkedin: <a href="https://www.linkedin.com/in/sameer-bhatti-8a2256235/" target="_blank" style={{color:"white", textDecoration:"none"}}>linkedin.com/in/sameer-bhatti-8a2256235</a> </h5>
                 <h5>Whatsapp: <a href="https://wa.me/message/RNLGOO5TNB4GC1" target="_blank" style={{color:"white", textDecoration:"none"}}>wa.me/message/RNLGOO5TNB4GC1</a></h5>
 
