@@ -1,6 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
+import certifiedInCyberSecurity from "../assets/img/Certificates/cc.png";
 import deepWebCyberSecurity from "../assets/img/Certificates/DeepWeb-CyberSecurity.png";
+import nist from "../assets/img/Certificates/NIST-SP-800-53.png";
 import Linux from "../assets/img/Certificates/Linux.png";
 import appliedLiveForensics from "../assets/img/Certificates/Applied-Live-forensics.png";
 import devSecOps from "../assets/img/Certificates/DevSecOps.png";
@@ -19,14 +21,20 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects1 = [
     {
-      title: "Deep Web and Cyber Security",
+      title: "CC | Certified in Cyber Security",
       description: "End to End knowledge of Cyber And Deep Web",
+      imgUrl: certifiedInCyberSecurity,
+    },
+    {
+      title: "Deep Web and Cyber Security",
+      description: "ISC2 CC (Certified In Cyber Security)",
       imgUrl: deepWebCyberSecurity,
     },
     {
-      title: "Linux",
-      description: "Complete Linux for Cybersecurity",
-      imgUrl: Linux,
+      title: "NIST SP 800 53",
+      description:
+        "National Institute of Standards and Technology. (NIST SP 800 53)",
+      imgUrl: nist,
     },
     {
       title: "Applied Live Forensics",
@@ -48,8 +56,11 @@ export const Projects = () => {
       description: "Cryptography in python",
       imgUrl: appliedPythonCryptography,
     },
-  ];
-const projects2 = [
+    {
+      title: "Linux",
+      description: "Complete Linux for Cybersecurity",
+      imgUrl: Linux,
+    },
     {
       title: "MAster-Wifi-EvilTwin",
       description: "Master in Wifi hacking and Network Security",
@@ -81,6 +92,18 @@ const projects2 = [
       imgUrl: socialEngineering,
     },
   ];
+  // const projects2 = [
+  //   {
+  //     title: "Applied Python Cryptography",
+  //     description: "Cryptography in python",
+  //     imgUrl: appliedPythonCryptography,
+  //   },
+  //   {
+  //     title: "Linux",
+  //     description: "Complete Linux for Cybersecurity",
+  //     imgUrl: Linux,
+  //   },
+  // ];
 
   return (
     <section className="project" id="projects">
@@ -104,7 +127,7 @@ const projects2 = [
                     and protect against the ever-changing cyber landscape.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                    <Nav
+                    {/* <Nav
                       variant="pills"
                       className="nav-pills mb-5 justify-content-center align-items-center"
                       id="pills-tab"
@@ -118,7 +141,7 @@ const projects2 = [
                       <Nav.Item>
                         <Nav.Link eventKey="third">Tab 3</Nav.Link>
                       </Nav.Item>
-                    </Nav>
+                    </Nav> */}
                     <Tab.Content
                       id="slideInUp"
                       className={
@@ -132,18 +155,16 @@ const projects2 = [
                           })}
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="second">
+                      {/* <Tab.Pane eventKey="second">
                         <Row>
                           {projects2.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="third">
-                        <p>
-                          Still Learning....
-                        </p>
-                      </Tab.Pane>
+                      </Tab.Pane> */}
+                      {/* <Tab.Pane eventKey="third">
+                        <p>Still Learning....</p>
+                      </Tab.Pane> */}
                     </Tab.Content>
                   </Tab.Container>
                 </div>
