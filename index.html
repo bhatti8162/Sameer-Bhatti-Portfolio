@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
     <title>
       WordPress & Digital Marketing Expert | Boost Leads & Sales - Sameer Bhatti
     </title>
@@ -37,6 +37,7 @@
       name="twitter:description"
       content="Stop wasting marketing dollars - Get measurable results with our conversion-focused digital solutions"
     />
+
     <style>
       :root {
         --orange: #ff6b35;
@@ -58,9 +59,52 @@
 
       .header {
         background: var(--royal-blue);
-        padding: 2rem;
+        padding: 3rem 2rem;
         text-align: center;
         color: white;
+        border-bottom: 4px solid var(--orange);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      }
+
+      .main-heading {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+
+      .subhead {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-bottom: 2rem;
+      }
+
+      .header-image {
+        border: 3px solid var(--orange);
+        border-radius: 10px;
+        margin: 15px auto;
+        display: block;
+        max-width: 250px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .header-image:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      .profile-image {
+        border: 3px solid var(--orange);
+        border-radius: 10px;
+        margin: 15px auto;
+        display: block;
+        width: 250px;
+        height: 200px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .profile-image:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
       }
 
       .cta-button {
@@ -70,8 +114,14 @@
         border-radius: 5px;
         text-decoration: none;
         display: inline-block;
-        margin: 2rem 0;
         font-weight: bold;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .cta-button:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
       }
 
       section {
@@ -94,7 +144,6 @@
         border-radius: 10px;
       }
 
-      /* New styles for the gig cards */
       .service-cards-container {
         display: flex;
         justify-content: center;
@@ -116,6 +165,7 @@
         text-align: center;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow */
         background-color: white; /* White card background */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
       }
 
       .gig-card h3 {
@@ -128,33 +178,6 @@
         font-size: 0.75rem; /* Smaller font for gig descriptions */
         color: #6b7280; /* Gray text */
       }
-      .header-image:hover {
-        transform: translateY(-1px); /* Lift the card slightly */
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Add a shadow for depth */
-      }
-      .cta-button:hover {
-        transform: translateY(-1px); /* Lift the card slightly */
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Add a shadow for depth */
-      }
-      /* Responsive Design */
-      @media (max-width: 768px) {
-        .header h1 {
-          font-size: 1.8rem;
-        }
-
-        .cta-button {
-          padding: 0.8rem 1.5rem;
-        }
-
-        .service-cards-container {
-          justify-content: flex-start; /* Align cards left on smaller screens */
-        }
-      }
-
-      /* Hover effect for the gig card */
-      .gig-card {
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-      }
 
       .gig-card:hover {
         transform: translateY(-8px); /* Lift the card slightly */
@@ -166,7 +189,6 @@
         color: inherit; /* Inherit text color for better design */
       }
 
-      /* Hover effect for the image */
       .gig-image {
         transition: transform 0.3s ease; /* Smooth zoom-in effect */
         width: 250px;
@@ -176,35 +198,123 @@
       .gig-card:hover .gig-image {
         transform: scale(1.05); /* Slight zoom-in on hover */
       }
+
+      @media (max-width: 768px) {
+        .main-heading {
+          font-size: 1.8rem;
+        }
+
+        .cta-button {
+          padding: 0.8rem 1.5rem;
+        }
+
+        .service-cards-container {
+          justify-content: flex-start; /* Align cards left on smaller screens */
+        }
+      }
     </style>
   </head>
   <body>
     <header class="header">
-      <h1 style="color: white">
+      <h1 class="main-heading" style="color: white">
         WordPress & Marketing That Gets Results – No Sales, No Payment!
       </h1>
       <p class="subhead">
         Stop Wasting Money on Ineffective Marketing - Get Guaranteed Results
       </p>
 
-      <!-- Added image with styling -->
-      <a href="https://wa.me/+923103111148" target="_blank">
-        <img
-          src="QR.jpg"
-          alt="WhatsApp Business Verified"
-          class="header-image"
-          style="
-            border: 2px solid #ff6b35;
-            border-radius: 10px;
-            margin: 15px auto;
-            display: block;
-            max-width: 300px;
-          "
-        />
-      </a>
-      <a href="https://wa.me/+923103111148" class="cta-button" target="_blank">
-        📱 WhatsApp Me Now
-      </a>
+      <div
+        class="service-cards-container flex justify-center items-center gap-4 p-4 flex-wrap"
+      >
+        <!-- Added QR Image with caption -->
+        <div>
+          <a href="https://www.linkedin.com/in/sameerbhatti8162/" target="_blank">
+            <img
+              src="img/linkedin.png"
+              alt="LinkedIn Business Verified"
+              class="profile-image"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sameerbhatti8162/"
+            class="cta-button"
+            target="_blank"
+          >
+            📱 View Profile
+          </a>
+        </div>
+
+        <!-- Added QR Image with caption -->
+        <div>
+          <a href="https://www.fiverr.com/s/2KDzjLX" target="_blank">
+            <img
+              src="img/fiverr.jpg"
+              alt="Fiverr Business Verified"
+              class="profile-image"
+            />
+          </a>
+          <a
+            href="https://www.fiverr.com/s/2KDzjLX"
+            class="cta-button"
+            target="_blank"
+          >
+            📱 View Profile
+          </a>
+        </div>
+
+        <!-- Added QR Image with caption -->
+        <div>
+          <a href="https://wa.me/+923103111148" target="_blank">
+            <img
+              src="QR.jpg"
+              alt="WhatsApp Business Verified"
+              class="header-image"
+            />
+          </a>
+          <a
+            href="https://wa.me/+923103111148"
+            class="cta-button"
+            target="_blank"
+          >
+            📱 WhatsApp Me Now
+          </a>
+        </div>
+
+        <!-- Added QR Image with caption -->
+        <div>
+          <a href="https://www.upwork.com/freelancers/~016fc01c9c4889c1b2?viewMode=1" target="_blank">
+            <img
+              src="img/upwork.png"
+              alt="upwork Business Verified"
+              class="profile-image"
+            />
+          </a>
+          <a
+            href="https://www.upwork.com/freelancers/~016fc01c9c4889c1b2?viewMode=1"
+            class="cta-button"
+            target="_blank"
+          >
+            📱 View Profile
+          </a>
+        </div>
+        <!-- Added QR Image with caption -->
+        <div>
+          <a href="https://www.facebook.com/profile.php?id=61556125721201" target="_blank">
+            <img
+              src="img/facebook.jpg"
+              alt="Facebook Business Verified"
+              class="profile-image"
+            />
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=61556125721201"
+            class="cta-button"
+            target="_blank"
+          >
+            📱 View Profile
+          </a>
+        </div>
+      </div>
     </header>
 
     <!-- Services Section -->
