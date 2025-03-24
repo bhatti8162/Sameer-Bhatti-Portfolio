@@ -35,7 +35,6 @@
       name="twitter:description"
       content="Stop wasting marketing dollars - Get measurable results with our conversion-focused digital solutions"
     />
-
     <style>
       :root {
         --orange: #ff6b35;
@@ -93,6 +92,48 @@
         border-radius: 10px;
       }
 
+      /* New styles for the gig cards */
+      .service-cards-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+      }
+
+      .gig-card {
+        width: 300px;
+        height: 250px;
+        border: 1px solid #d1d5db; /* Light gray border */
+        border-radius: 10px;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow */
+        background-color: white; /* White card background */
+      }
+
+      .gig-card h3 {
+        font-size: 0.875rem; /* Small font for gig titles */
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+      }
+
+      .gig-card p {
+        font-size: 0.75rem; /* Smaller font for gig descriptions */
+        color: #6b7280; /* Gray text */
+      }
+      .header-image:hover {
+        transform: translateY(-1px); /* Lift the card slightly */
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Add a shadow for depth */
+      }
+      .cta-button:hover {
+        transform: translateY(-1px); /* Lift the card slightly */
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Add a shadow for depth */
+      }
       /* Responsive Design */
       @media (max-width: 768px) {
         .header h1 {
@@ -102,6 +143,36 @@
         .cta-button {
           padding: 0.8rem 1.5rem;
         }
+
+        .service-cards-container {
+          justify-content: flex-start; /* Align cards left on smaller screens */
+        }
+      }
+
+      /* Hover effect for the gig card */
+      .gig-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .gig-card:hover {
+        transform: translateY(-8px); /* Lift the card slightly */
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Add a shadow for depth */
+      }
+
+      .gig-link {
+        text-decoration: none; /* Remove link underline */
+        color: inherit; /* Inherit text color for better design */
+      }
+
+      /* Hover effect for the image */
+      .gig-image {
+        transition: transform 0.3s ease; /* Smooth zoom-in effect */
+        width: 250px;
+        height: 150px;
+      }
+
+      .gig-card:hover .gig-image {
+        transform: scale(1.05); /* Slight zoom-in on hover */
       }
     </style>
   </head>
@@ -137,9 +208,93 @@
     <!-- Services Section -->
     <section id="services">
       <h2>
-        Stop Wasting Money on Marketing That Doesn’t Work! Get a High-Converting
-        WordPress Website & Results-Driven Strategies—Pay Only for Success!
+        Stop Wasting Money on Ineffective Marketing! Get a High-Converting
+        WordPress Website & Proven Strategies—Order on Fiverr!
       </h2>
+
+      <div
+        class="service-cards-container flex justify-center items-center gap-4 p-4 flex-wrap"
+      >
+        <!-- Gig 1 -->
+        <a
+          href="https://www.fiverr.com/s/WEB1NbR"
+          target="_blank"
+          class="gig-link"
+        >
+          <div
+            class="gig-card border border-gray-300 rounded-lg shadow-md p-2 flex flex-col justify-center items-center"
+          >
+            <img
+              src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs3/421993462/original/bc0a7f0446e10976bcaf9bf12ada20ddbd324afd/provide-high-converting-wordpress-website-design-development.jpg"
+              alt="WordPress Maintenance Image"
+              class="gig-image rounded-md"
+            />
+            <h3 class="text-sm font-semibold mt-2">WordPress Development</h3>
+            <p class="text-xs text-gray-600 text-center">
+              I will provide high converting wordpress website development
+            </p>
+          </div>
+        </a>
+
+        <!-- Gig 2 -->
+        <a
+          href="https://www.fiverr.com/s/8zVQGvz"
+          target="_blank"
+          class="gig-link"
+        >
+          <div
+            class="gig-card border border-gray-300 rounded-lg shadow-md p-2 flex flex-col justify-center items-center"
+          >
+            <img
+              src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/421997227/original/ec8c7afc6de705bea4a0b036588362e84fd2ec7a/provide-facebook-and-instagram-paid-ads-for-leads-sales.jpg"
+              alt="WordPress Maintenance Image"
+              class="gig-image rounded-md"
+            />
+            <h3 class="text-sm font-semibold mt-2">Facebook Ads</h3>
+            <p class="text-xs text-gray-600 text-center">
+              I will provide facebook and instagram paid ads for leads, sales
+            </p>
+          </div>
+        </a>
+
+        <!-- Gig 3 -->
+        <a
+          href="https://www.fiverr.com/s/1q3v04k"
+          target="_blank"
+          class="gig-link"
+        >
+          <div
+            class="gig-card border border-gray-300 rounded-lg shadow-md p-2 flex flex-col justify-center items-center"
+          >
+            <img
+              src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/422002130/original/dcfc0878ca3de31418a8313f6742012d3b959558/provide-google-ads-setup-and-management-ppc-expert.png"
+              alt="WordPress Maintenance Image"
+              class="gig-image rounded-md"
+            />
+            <h3 class="text-sm font-semibold mt-2">WordPress Maintenance</h3>
+            <p class="text-xs text-gray-600 text-center">
+              Protect your site with backups, updates, and optimization.
+            </p>
+          </div>
+        </a>
+
+        <!-- Gig 4
+        <a href="https://www.example.com" target="_blank" class="gig-link">
+          <div
+            class="gig-card border border-gray-300 rounded-lg shadow-md p-2 flex flex-col justify-center items-center"
+          >
+            <img
+              src="https://via.placeholder.com/150x100"
+              alt="WordPress Maintenance Image"
+              class="gig-image rounded-md"
+            />
+            <h3 class="text-sm font-semibold mt-2">WordPress Maintenance</h3>
+            <p class="text-xs text-gray-600 text-center">
+              Protect your site with backups, updates, and optimization.
+            </p>
+          </div>
+        </a> -->
+      </div>
 
       <div class="service-card">
         <h2>High-Converting WordPress & Landing Page Development</h2>
@@ -457,7 +612,11 @@
     <footer>
       <p>
         © 2023 Sameer Bhatti - WordPress Expert & Digital Marketing Strategist
-        Contact: +92 310 3111148 | Email: sameerbhatti8162@gmail.com
+        Contact: +92 310 3111148 | Email:
+        <a href="mailto:sameerbhatti8162@gmail.com"
+          >sameerbhatti8162@gmail.com</a
+        >
+        | <a href="privacy-policy.html">Privacy Policy</a>
       </p>
     </footer>
   </body>
