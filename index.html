@@ -1,611 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
-    <title>
-      Sales Funnel & Digital Marketing Expert | Boost Leads & Sales - Sameer Bhatti
-    </title>
-    <meta
-      name="description"
-      content="Professional Sales Funnel developer & digital marketing strategist helping businesses increase conversions through high-performing websites, SEO, PPC, and targeted Facebook ads. Guaranteed results!"
-    />
-    <meta
-      name="keywords"
-      content="Sales Funnel Specialist, Landing Page Optimization, Affordable Sales Funnel , SEO Services, PPC Management, High-Converting Facebook Ads, Lead Generation, Sales Funnel Optimization, Website Performance, Digital Marketing Strategy"
-    />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>@bhatti8162 | Social Links | Digital Marketer | Skilled in Sales, Cold Calling, PPC & Facebook Ads | Ready to work with B2B, eCommerce, and Finance brands.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
 
-    <!-- Open Graph Tags -->
-    <meta
-      property="og:title"
-      content="Professional Sales Funnel Specialist & Digital Marketing Services | Sameer Bhatti"
-    />
-    <meta
-      property="og:description"
-      content="Transform your online presence with guaranteed results in lead generation and sales conversion. Expert Sales Funnel development and data-driven marketing strategies."
-    />
+    body {
+      background-color: #f5f7fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Sales Funnel Expert & Marketing Strategist | Sameer Bhatti"
-    />
-    <meta
-      name="twitter:description"
-      content="Stop wasting marketing dollars - Get measurable results with our conversion-focused digital solutions"
-    />
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+      text-align: center;
+      max-width: 400px;
+      width: 100%;
+    }
 
-    <style>
-      :root {
-        --orange: #ff5733;
-        --royal-blue: #1a73e8;
-        --sky-blue: #007bff;
-      }
+    .card h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+      color: #333;
+    }
 
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: "Arial", sans-serif;
-      }
+    .card p.handle {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
 
-      body {
-        line-height: 1.6;
-        color: var(--sky-blue);
-      }
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
 
-      .header {
-        background: url("./img/sales.svg") center center / cover no-repeat,
-          var(--royal-blue);
-        padding: 3rem 2rem;
-        text-align: center;
-        color: white;
-        border-bottom: 4px solid var(--orange);
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-      }
+    .social-links a {
+      text-decoration: none;
+      color: white;
+      padding: 0.75rem;
+      border-radius: 0.5rem;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
 
-      .main-heading {
-        font-size: 2rem;
-        font-weight: bold;
-        margin-bottom: 1rem;
-      }
+    .linkedin { background-color: #0A66C2; }
+    .linkedin:hover { background-color: #004182; }
 
-      .subhead {
-        font-size: 1rem;
-        font-weight: 500;
-        margin-bottom: 2rem;
-      }
+    .facebook { background-color: #1877F2; }
+    .facebook:hover { background-color: #0f5dc5; }
 
-      .header-image {
-        border: 3px solid;
-        border-radius: 10px;
-        margin: 15px auto;
-        display: block;
-        max-width: 250px;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-      }
+    .twitter { background-color: #1DA1F2; }
+    .twitter:hover { background-color: #0d8ae4; }
 
-      .header-image:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-      }
+    .instagram { background-color: #E1306C; }
+    .instagram:hover { background-color: #c0275c; }
 
-      .profile-image {
-        border: 2px solid var(--orange);
-        border-radius: 10px;
-        margin: 15px auto;
-        display: block;
-        width: 250px;
-        height: 200px;
-        box-shadow: 0 10px 6px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-      }
-
-      .profile-image:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-      }
-
-      .cta-button {
-        background: var(--orange);
-        color: white;
-        padding: 1rem 2rem;
-        border-radius: 5px;
-        text-decoration: none;
-        display: inline-block;
-        font-weight: bold;
-        box-shadow: 0 10px 6px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-      }
-
-      .cta-button:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-      }
-
-      section {
-        padding: 4rem 2rem;
-        max-width: 1200px;
-        margin: 0 auto;
-      }
-
-      h1,
-      h2,
-      h3 {
-        color: var(--royal-blue);
-        margin-bottom: 1.5rem;
-      }
-
-      .service-card {
-        border: 2px solid var(--orange);
-        padding: 2rem;
-        margin: 2rem 0;
-        border-radius: 10px;
-      }
-
-      .service-cards-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 1.5rem;
-        flex-wrap: wrap;
-      }
-
-      .gig-card {
-        width: 300px;
-        height: 250px;
-        border: 1px solid #d1d5db; /* Light gray border */
-        border-radius: 10px;
-        padding: 1rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow */
-        background-color: white; /* White card background */
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-      }
-
-      .gig-card h3 {
-        font-size: 0.875rem; /* Small font for gig titles */
-        font-weight: 600;
-        margin-bottom: 0.5rem;
-      }
-
-      .gig-card p {
-        font-size: 0.75rem; /* Smaller font for gig descriptions */
-        color: #6b7280; /* Gray text */
-      }
-
-      .gig-card:hover {
-        transform: translateY(-8px); /* Lift the card slightly */
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Add a shadow for depth */
-      }
-
-      .gig-link {
-        text-decoration: none; /* Remove link underline */
-        color: inherit; /* Inherit text color for better design */
-      }
-
-      .gig-image {
-        transition: transform 0.3s ease; /* Smooth zoom-in effect */
-        width: 250px;
-        height: 150px;
-      }
-
-      .gig-card:hover .gig-image {
-        transform: scale(1.05); /* Slight zoom-in on hover */
-      }
-
-      @media (max-width: 768px) {
-        .main-heading {
-          font-size: 1.8rem;
-        }
-
-        .cta-button {
-          padding: 0.8rem 1.5rem;
-        }
-        .profile-image {
-          border: 0.5px solid var(--orange);
-        }
-
-        .service-cards-container {
-          justify-content: center; /* Align cards left on smaller screens */
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <header class="header">
-      <h1 class="main-heading" style="color: white">
-        Sales Funnel & Marketing That Gets Results – No Sales, No Payment!
-      </h1>
-      <p class="subhead">
-        Stop Wasting Money on Ineffective Marketing - Get Guaranteed Results
-      </p>
-      <div
-        class="service-cards-container flex justify-center items-center gap-4 p-4 flex-wrap"
-      >
-        <!-- Added QR Image with caption -->
-        <div>
-          <a
-            href="https://www.linkedin.com/in/sameerbhatti8162/"
-            target="_blank"
-          >
-            <img
-              src="img/linkedin.png"
-              alt="LinkedIn Business Verified"
-              class="profile-image"
-            />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/sameerbhatti8162/"
-            class="cta-button"
-            target="_blank"
-          >
-            📱 View Profile
-          </a>
-        </div>
-
-        <!-- Added QR Image with caption -->
-        <div>
-          <a href="https://www.fiverr.com/s/2KDzjLX" target="_blank">
-            <img
-              src="img/fiverr.jpg"
-              alt="Fiverr Business Verified"
-              class="profile-image"
-            />
-          </a>
-          <a
-            href="https://www.fiverr.com/s/2KDzjLX"
-            class="cta-button"
-            target="_blank"
-          >
-            📱 View Profile
-          </a>
-        </div>
-
-        <!-- Added QR Image with caption -->
-        <div>
-          <a
-            href="https://api.whatsapp.com/message/RTQB2TKMH6DTE1?autoload=1&app_absent=0"
-            target="_blank"
-          >
-            <img
-              src="QR.jpg"
-              alt="WhatsApp Business Verified"
-              class="profile-image"
-            />
-          </a>
-          <a
-            href="https://api.whatsapp.com/message/RTQB2TKMH6DTE1?autoload=1&app_absent=0"
-            class="cta-button"
-            target="_blank"
-          >
-            📱 WhatsApp Now
-          </a>
-        </div>
-
-        <!-- Added QR Image with caption -->
-        <div>
-          <a
-            href="https://www.upwork.com/freelancers/~016fc01c9c4889c1b2?viewMode=1"
-            target="_blank"
-          >
-            <img
-              src="img/upwork.png"
-              alt="upwork Business Verified"
-              class="profile-image"
-            />
-          </a>
-          <a
-            href="https://www.upwork.com/freelancers/~016fc01c9c4889c1b2?viewMode=1"
-            class="cta-button"
-            target="_blank"
-          >
-            📱 View Profile
-          </a>
-        </div>
-        <!-- Added QR Image with caption -->
-        <div>
-          <a
-            href="https://www.facebook.com/profile.php?id=61556125721201"
-            target="_blank"
-          >
-            <img
-              src="img/facebook.jpg"
-              alt="Facebook Business Verified"
-              class="profile-image"
-            />
-          </a>
-          <a
-            href="https://www.facebook.com/profile.php?id=61556125721201"
-            class="cta-button"
-            target="_blank"
-          >
-            📱 View Profile
-          </a>
-        </div>
-      </div>
-    </header>
-
-    <!-- Services Section -->
-    <section id="services">
-      <h2>
-        ✅I believe in delivering results first! You pay only after you’re
-        satisfied. If you’re not happy with my work, you get a full refund—no
-        questions asked! | Order on Fiverr!
-      </h2>
-
-      <div
-        class="service-cards-container flex justify-center items-center gap-4 p-4 flex-wrap"
-      >
-        <!-- Gig 1 -->
-        <a
-          href="https://www.fiverr.com/s/WEB1NbR"
-          target="_blank"
-          class="gig-link"
-        >
-          <div
-            class="gig-card border border-gray-300 rounded-lg shadow-md p-2 flex flex-col justify-center items-center"
-          >
-            <img
-              src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs2/421993462/original/d6f4f9fd8029b2853015b8c153ed35f192d59eef/provide-high-converting-wordpress-website-design-development.jpg"
-              alt="WordPress Maintenance Image"
-              class="gig-image rounded-md"
-            />
-            <h3 class="text-sm font-semibold mt-2">WordPress Development</h3>
-            <p class="text-xs text-gray-600 text-center">
-              I will provide high converting wordpress website development
-            </p>
-          </div>
-        </a>
-
-        <!-- Gig 2 -->
-        <a
-          href="https://www.fiverr.com/s/8zVQGvz"
-          target="_blank"
-          class="gig-link"
-        >
-          <div
-            class="gig-card border border-gray-300 rounded-lg shadow-md p-2 flex flex-col justify-center items-center"
-          >
-            <img
-              src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/421997227/original/ec8c7afc6de705bea4a0b036588362e84fd2ec7a/provide-facebook-and-instagram-paid-ads-for-leads-sales.jpg"
-              alt="Facebook Ads Image"
-              class="gig-image rounded-md"
-            />
-            <h3 class="text-sm font-semibold mt-2">Facebook Ads</h3>
-            <p class="text-xs text-gray-600 text-center">
-              I will provide facebook and instagram paid ads for leads, sales
-            </p>
-          </div>
-        </a>
-
-        <!-- Gig 3 -->
-        <a
-          href="https://www.fiverr.com/s/1q3v04k"
-          target="_blank"
-          class="gig-link"
-        >
-          <div
-            class="gig-card border border-gray-300 rounded-lg shadow-md p-2 flex flex-col justify-center items-center"
-          >
-            <img
-              src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/422002130/original/dcfc0878ca3de31418a8313f6742012d3b959558/provide-google-ads-setup-and-management-ppc-expert.png"
-              alt="Google Ads Image"
-              class="gig-image rounded-md"
-            />
-            <h3 class="text-sm font-semibold mt-2">Google Ads</h3>
-            <p class="text-xs text-gray-600 text-center">
-              I will provide google ads setup and management PPC expert
-            </p>
-          </div>
-        </a>
-
-        <!-- Gig 4
-        <a href="https://www.example.com" target="_blank" class="gig-link">
-          <div
-            class="gig-card border border-gray-300 rounded-lg shadow-md p-2 flex flex-col justify-center items-center"
-          >
-            <img
-              src="https://via.placeholder.com/150x100"
-              alt="Digital Marketing Maintenance Image"
-              class="gig-image rounded-md"
-            />
-            <h3 class="text-sm font-semibold mt-2">Digital Marketing Maintenance</h3>
-            <p class="text-xs text-gray-600 text-center">
-              Protect your site with backups, updates, and optimization.
-            </p>
-          </div>
-        </a> -->
-      </div>
-
-      <div class="service-card">
-        <h3>Affordable Digital Marketing Plans</h3>
-        <p>
-          In today’s hyper-competitive online world, your digital presence is more than just a website—it's your brand, your voice, and your growth engine. Affordable digital marketing plans are not just about running a few ads or making social media posts—they're a complete, data-driven strategy built to drive real results: more traffic, more engagement, and more conversions. These plans are your roadmap to thriving online, crafted to take the guesswork out of marketing and let you focus on scaling your business.
-          <br /><br />
-          A solid digital marketing plan encompasses all the moving parts of the online ecosystem—search engine optimization (SEO), pay-per-click advertising (PPC), social media marketing, content strategy, email campaigns, and analytics. Instead of juggling multiple vendors or wasting time on trial-and-error approaches, you get a streamlined service that’s continuously optimized for performance, cost-efficiency, and ROI. These services are tailored to fit your unique business goals, whether it’s brand awareness, lead generation, or boosting e-commerce sales.
-          <br /><br />
-          SEO is a major pillar of any effective digital marketing plan. A well-optimized website attracts organic traffic, builds credibility, and reduces your dependency on paid ads. Comprehensive SEO services include keyword research, on-page optimization, technical audits, mobile responsiveness, speed improvements, and link-building campaigns. Google constantly updates its algorithms, and without regular optimization, your rankings—and traffic—can suffer. That's why proactive SEO is critical for long-term visibility and growth.
-          <br /><br />
-          PPC and paid media strategies offer instant visibility and measurable outcomes. Whether it’s Google Ads, Facebook Ads, or LinkedIn campaigns, these platforms provide laser-targeted ad placements that put your message in front of the right people at the right time. Affordable plans include budget-friendly ad management, A/B testing for creatives, audience segmentation, and performance tracking. By leveraging analytics, campaigns are continuously refined to reduce cost per click (CPC) and increase return on ad spend (ROAS).
-          <br /><br />
-          Social media is where engagement and brand personality shine. Professional digital marketing plans handle content scheduling, post design, hashtag strategy, and platform-specific growth tactics across Facebook, Instagram, LinkedIn, TikTok, and more. Engagement metrics like shares, comments, and follows are monitored and analyzed, enabling agile content shifts that resonate better with your audience. For brands wanting an authentic voice and stronger community, this is key.
-          <br /><br />
-          Email marketing remains one of the most effective and budget-friendly channels to retain customers and drive repeat sales. Affordable plans include list segmentation, automation sequences, compelling copywriting, and high-conversion templates. Whether it's abandoned cart emails, promotional blasts, or newsletters, every email is crafted with precision to maximize open and click-through rates.
-          <br /><br />
-          Content marketing is the backbone of organic growth. A great digital marketing plan includes content calendars, blog strategy, video scripting, and even lead magnet creation (like eBooks, webinars, or quizzes). High-quality, SEO-optimized content not only boosts traffic but also establishes your brand as an authority in your niche—building trust and nurturing long-term relationships.
-          <br /><br />
-          Analytics and reporting are baked into every plan. What gets measured, gets managed. You'll receive easy-to-understand dashboards with data on traffic sources, user behavior, conversion funnels, and campaign performance. Regular performance reviews help identify trends, opportunities, and areas of improvement so your strategy evolves with the market.
-          <br /><br />
-          Affordable digital marketing plans are tiered to suit a wide range of needs and budgets. Starter packages may focus on core SEO and social media management—perfect for solopreneurs or local businesses. Mid-tier plans expand to include email campaigns, PPC management, and conversion optimization. For scaling startups or enterprise-level clients, premium packages may feature advanced analytics, custom CRM integrations, influencer collaborations, and high-level consulting.
-          <br /><br />
-          In conclusion, digital marketing isn’t optional—it’s essential. Affordable digital marketing plans turn scattered efforts into a unified growth strategy. By outsourcing your digital marketing to seasoned professionals, you get access to cutting-edge tools, proven tactics, and constant innovation without the overhead of an in-house team. Whether you’re just starting or looking to scale, these plans are your all-in-one solution to dominate online and grow smarter.
-        </p>
-      </div>
-      
-
-      <div class="service-card">
-        <h2>High-Converting Landing page Development</h2>
-        <p>
-          In the digital age, where attention spans are shorter than ever and
-          competition for clicks is fierce, the The foundation of
-          high-converting Landing page development lies in marrying form and
-          function. Aesthetics matter—colors, typography, and imagery play
-          pivotal roles in establishing trust and guiding user behavior—but they
-          must serve a strategic purpose. For instance, orange CTAs (hex code
-          #FF6B35) are scientifically proven to evoke urgency and excitement,
-          while royal blue (#2A4F9E) instills professionalism and reliability.
-          These choices aren’t arbitrary; they’re informed by A/B testing and
-          heatmap analysis, tools that reveal how users interact with every
-          element of a page. A common pitfall of generic Landing page templates is
-          their one-size-fits-all approach, which often results in bloated code,
-          slow load times, and layouts that don’t align with the user’s journey.
-          To combat this, I build custom Landing page themes from scratch,
-          prioritizing lightweight frameworks that eliminate unnecessary plugins
-          and scripts. By leveraging server-side rendering, lazy loading, and
-          content delivery networks (CDNs), I ensure pages load in under 1.5
-          seconds—a non-negotiable benchmark, given that a one-second delay can
-          reduce conversions by 7%. <br /><br />
-          Speed optimization is just one piece of the puzzle. The architecture
-          of a high-converting site must mirror the psychological journey of its
-          target audience. Take, for example, a landing page designed for a SaaS
-          company targeting enterprise clients. The hero section’s headline must
-          immediately address the visitor’s pain point: “Tired of Inefficient
-          Project Management? Reduce Operational Costs by 40% with AI-Driven
-          Workflow Automation.” This value proposition is then reinforced by
-          social proof—logos of Fortune 500 clients, testimonials quoting
-          specific ROI metrics, and trust badges like ISO certifications.
-          Beneath this, a bullet-point list highlights tangible benefits: “24/7
-          Priority Support,” “Military-Grade Data Encryption,” and “No-Code
-          Integration with Existing Tools.” Each element is strategically placed
-          using Z-pattern or F-pattern layouts, which align with natural eye
-          movement patterns observed in eye-tracking studies.
-          <br /><br />
-          Persuasive copywriting is the backbone of conversion-focused design.
-          Unlike generic marketing fluff, high-converting content employs the
-          PAS (Problem-Agitate-Solve) framework. For a landing page promoting
-          Landing page maintenance services, this might look like: “Struggling with
-          Constant Security Breaches? [Problem] Every hour of downtime costs
-          small businesses an average of $1,551 in lost revenue [Agitate]. Our
-          managed Landing page hosting includes real-time malware scanning,
-          automated backups, and a 99.99% uptime guarantee—so you can focus on
-          growth, not tech headaches [Solve].” This approach taps into the
-          visitor’s emotions while presenting a clear solution, reducing
-          decision fatigue and friction.
-          <br /><br />
-          Conversion rate optimization (CRO) tools further amplify these
-          principles. Exit-intent popups, for instance, detect when a user is
-          about to leave the page and serve a tailored offer, such as a free
-          audit or discount code—a tactic shown to recover 10–15% of abandoning
-          visitors. Sticky CTAs remain visible as users scroll, ensuring the
-          call-to-action is never more than a glance away. For e-commerce sites,
-          dynamic product recommendation engines analyze user behavior to
-          display personalized suggestions, increasing average order values by
-          up to 30%. These features are seamlessly integrated into Landing page
-          using plugins like Elementor Pro for drag-and-drop functionality and
-          WooCommerce for scalable online stores.
-          <br /><br />
-          The true test of a high-converting website lies in its adaptability.
-          Post-launch, I deploy tools like Hotjar to generate heatmaps and
-          session recordings, revealing how users interact with the site in real
-          time. If a critical CTA is being overlooked or a form field is causing
-          drop-offs, these insights guide rapid iterations. A/B testing is
-          conducted monthly, comparing variations of headlines, button colors,
-          or page layouts. For example, a recent test for a legal services
-          landing page revealed that changing the CTA from “Get a Free
-          Consultation” to “Protect Your Rights Now” increased conversions by
-          22%. This data-driven approach ensures the site evolves alongside
-          shifting user preferences and market trends.
-          <br /><br />
-          Landing pages, in particular, require surgical precision. Unlike
-          general websites, they focus on a single objective—be it webinar
-          sign-ups, product launches, or lead generation. A high-performing
-          landing page eliminates all distractions: navigation menus, external
-          links, and footer content are stripped away to keep the user’s
-          attention laser-focused on the offer. For a real estate client, we
-          designed a landing page with an interactive mortgage calculator
-          embedded above the fold. Visitors could adjust down payments and
-          interest rates in real time, with results displayed alongside a CTA:
-          “See How Much You’ll Save—Apply for Pre-Approval in 90 Seconds.” This
-          tool, combined with urgency triggers (“Only 3 Units Left at This
-          Price”), boosted lead capture by 180% in one month.
-          <br /><br />
-          Mobile optimization is another critical factor. With 58% of web
-          traffic coming from smartphones, a mobile-unfriendly site is a
-          conversion killer. I use Google’s Mobile-Friendly Test to audit
-          existing sites, addressing issues like unreadable text, improperly
-          scaled elements, and touch-target spacing. For a restaurant client, we
-          implemented AMP (Accelerated Mobile Pages) for their menu pages,
-          reducing load times to 0.8 seconds and increasing mobile orders by
-          40%.
-          <br /><br />
-          Security and trust are equally vital. Sites lacking SSL certificates
-          or clear privacy policies trigger bounce rates as high as 64%. I
-          ensure all Landing page installations include HTTPS encryption,
-          GDPR-compliant cookie consent banners, and Norton Secured badges. For
-          e-commerce clients, trust seals like “McAfee Secure” and “BBB
-          Accredited” are placed near checkout buttons, reducing cart
-          abandonment by reassuring users their data is safe.
-          <br /><br />
-          The integration of analytics and automation tools transforms a static
-          website into a dynamic sales engine. By connecting Landing page to CRM
-          platforms like HubSpot, leads captured through contact forms are
-          automatically segmented and nurtured with personalized email
-          sequences. Retargeting pixels track users who abandon carts, serving
-          them tailored Facebook or Google Ads to recapture lost sales. For a
-          B2B client, we synced their Landing page site with LinkedIn Lead Gen
-          Forms, allowing prospects to submit information with a single click—a
-          feature that slashed form completion time and increased qualified
-          leads by 65%.
-          <br /><br />
-          Affordable maintenance is the final pillar of conversion-focused
-          development. A website is not a “set it and forget it” asset; it
-          requires ongoing updates to plugins, themes, and security protocols.
-          My managed Landing page plans include weekly backups, malware scans, and
-          performance audits, ensuring sites remain fast, secure, and aligned
-          with SEO best practices. For a nonprofit client, this proactive
-          approach prevented 12 potential security breaches over six months,
-          safeguarding donor data and maintaining uptime during peak fundraising
-          campaigns.
-          <br /><br />
-          In conclusion, high-converting Landing Page and landing page development
-          is a blend of art and science—a process that demands technical
-          expertise, psychological insight, and relentless optimization. By
-          prioritizing speed, clarity, and user-centric design, businesses can
-          transform their digital presence into a 24/7 salesforce that drives
-          measurable growth.
-        </p>
-        <!-- Add 500+ words of detailed content -->
-      </div>
-
-    </section>
-
-    <!-- CTA Section -->
-    <section class="header">
-      <h2 style="color: white">Ready to Transform Your Marketing Results?</h2>
-      <p>Don't miss limited availability - Contact me today!</p>
-      <a href="https://wa.me/+923103111148" class="cta-button" target="_blank"
-        >💬 Start Your Growth Journey Now</a
-      >
-    </section>
-
-    <!-- Footer -->
-    <footer>
-      <p>
-        © 2023 Sameer Bhatti - Sales Funnel Expert & Digital Marketing Strategist
-        Contact: +92 310 3111148 | Email:
-        <a href="mailto:sameerbhatti8162@gmail.com"
-          >sameerbhatti8162@gmail.com</a
-        >
-        | <a href="privacy-policy.html">Privacy Policy</a>
-      </p>
-    </footer>
-  </body>
+    .youtube { background-color: #FF0000; }
+    .youtube:hover { background-color: #cc0000; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Follow Me</h1>
+    <h3>Digital Marketer & Paid Ads </h3>
+    <p class="handle">@bhatti8162</p>
+    <div class="social-links">
+      <a class="linkedin" href="https://www.linkedin.com/in/bhatti8162/" target="_blank">LinkedIn</a>
+      <a class="facebook" href="https://www.facebook.com/profile.php?id=61556125721201" target="_blank">Facebook</a>
+      <!-- <a class="twitter" href="#" target="_blank">Twitter</a> -->
+      <a class="instagram" href="https://www.instagram.com/bhatti_8162/" target="_blank">Instagram</a>
+      <a class="youtube" href="https://www.youtube.com/@bhatti_8162" target="_blank">YouTube</a>
+    </div>
+  </div>
+</body>
 </html>
