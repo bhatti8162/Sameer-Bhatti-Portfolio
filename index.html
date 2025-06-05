@@ -72,19 +72,22 @@
       body {
         margin: 0;
         font-family: "Inter", sans-serif;
-        background-color: #f4fff0;
+        background-color: #FFFFFF;
         color: #1b4332;
       }
 
       header {
         background-color: #0057A0;
         color: white;
-        padding: 2rem;
-        text-align: center;
+        /* width: 100vmax; */
+        padding: 0.5rem;
+        /* margin-bottom: ; */
+        text-align: start;
+        /* position: fixed; */
       }
 
       header h1 {
-        color: white;
+        color: #ebebeb;
       }
 
       section {
@@ -145,24 +148,47 @@
         z-index: 1;
         position: relative;
       }
+
+.banner {
+  width: 100%;
+  height: 100vmin; 
+  margin-top: 1%;
+  background-image: url('./img/Sameer-Banner.jpg'); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1080px) {
+  .banner {
+    height: 70vmin; 
+  }
+}
+
+@media (max-width: 780px) {
+  .banner {
+    height: 50vmin; 
+  }
+}
+
     </style>
   </head>
 
   <body>
     <header>
-      <h1>Sameer Bhatti</h1>
+      <!-- <h1>Sameer Bhatti</h1> -->
       <h2>
         Security Operations Center (SOC) | Real-Time Threat Detection & Response
       </h2>
     </header>
 
-    <div class="video-container">
+    <!-- <div class="video-container">
       <iframe
         src="https://www.youtube.com/embed/oz5yHepjCXY"
         allowfullscreen
       ></iframe>
-    </div>
-
+    </div> -->
+<div class="banner"></div>
     <section>
       <h2>Contact</h2>
       <p class="contact">
@@ -193,11 +219,7 @@
 
       <h2>Summary</h2>
       <p>
-        Results-oriented Test Automation Engineer with 4 years of experience
-        ensuring software quality, performance, and reliability. Skilled in test
-        automation, CI/CD pipelines, and Agile environments. Proven ability to
-        design and execute robust testing strategies that reduce bugs, improve
-        user experience, and support seamless product releases.
+Results-driven SOC expert with 2 years of experience in cybersecurity operations, threat detection, and incident response. Skilled in SIEM tools, log analysis, and real-time monitoring. Proven ability to identify threats, mitigate risks, and strengthen organizational security posture.
       </p>
 
       <h2>Experience</h2>
