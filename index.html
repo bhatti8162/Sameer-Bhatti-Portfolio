@@ -1,152 +1,178 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sameer Bhatti | Cybersecurity Trainer & Tech Educator</title>
-
-  <meta name="description" content="Sameer Bhatti - Cybersecurity Trainer, AI & Python Developer, C Programmer, Flutter App Developer, and Tech Educator. Helping individuals and organizations learn coding, security, and digital skills." />
-  <meta name="keywords" content="Sameer Bhatti, Cybersecurity Trainer, Python Developer, C Programmer, Flutter Developer, Tech Educator, AI Developer, Security Instructor" />
-  <meta name="author" content="Sameer Bhatti" />
-  <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://www.linkedin.com/in/bhatti8162/" />
-
-  <!-- Social Sharing -->
-  <meta property="og:title" content="Sameer Bhatti | Cybersecurity Trainer & Tech Educator" />
-  <meta property="og:description" content="Cybersecurity Trainer, AI & Python Developer, C Programmer, Flutter App Developer, and Tech Educator." />
-  <meta property="og:image" content="https://img.youtube.com/vi/oz5yHepjCXY/maxresdefault.jpg" />
-  <meta property="og:url" content="https://www.linkedin.com/in/bhatti8162/" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Sameer Bhatti | Cybersecurity Trainer & Tech Educator" />
-  <meta name="twitter:description" content="Cybersecurity Trainer, AI & Python Developer, C Programmer, Flutter App Developer, and Tech Educator." />
-  <meta name="twitter:image" content="https://img.youtube.com/vi/oz5yHepjCXY/maxresdefault.jpg" />
-
-  <!-- Fonts & Favicon -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
-  <link rel="icon" type="image/png" href="./favicons/favicon-32x32.png" />
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sameer Bhatti — Suggested Content</title>
   <style>
-    body {
-      margin: 0;
-      font-family: "Inter", sans-serif;
-      background: #f9fafc;
-      color: #1a1a1a;
-      line-height: 1.6;
+    :root{
+      --bg1: #0f172a;
+      --bg2: #071028;
+      --accent: linear-gradient(135deg,#7c3aed,#06b6d4);
+      --glass: rgba(255,255,255,0.06);
+      --glass-2: rgba(255,255,255,0.03);
+      --card-blur: 8px;
+      --radius: 16px;
+      --maxw: 980px;
+      --mono: 'Segoe UI', Roboto, -apple-system, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;min-height:100%;font-family:var(--mono);background:radial-gradient(1200px 600px at 10% 10%, rgba(124,58,237,0.12), transparent),radial-gradient(900px 500px at 90% 90%, rgba(6,182,212,0.08), transparent), linear-gradient(180deg,var(--bg1),var(--bg2));
+      color:#e6eef8;display:flex;align-items:center;justify-content:center;padding:40px;
+    }
+    .wrap{width:100%;max-width:var(--maxw);}
+
+    .card{
+      border-radius:calc(var(--radius));padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));backdrop-filter: blur(6px);box-shadow: 0 8px 30px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.04);
     }
 
-    header {
-      background: linear-gradient(135deg, #0057a0, #007bff);
-      color: white;
-      text-align: center;
-      padding: 2rem 1rem;
-      border-bottom-left-radius: 30px;
-      border-bottom-right-radius: 30px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    header{display:flex;align-items:center;gap:20px;margin-bottom:22px}
+    .avatar{
+      width:84px;height:84px;border-radius:18px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:26px;background:linear-gradient(135deg,#0ea5a4 0%, #2563eb 100%);color:white;box-shadow:0 6px 18px rgba(12,22,45,0.6);
+      transform:rotate(-6deg);
     }
+    h1{margin:0;font-size:40px;letter-spacing:0.6px}
+    p.lead{margin:0;color:rgba(230,238,248,0.72);}
 
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-      font-weight: 800;
-    }
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:16px}
+    @media (max-width:760px){.grid{grid-template-columns:1fr}}
 
-    header p {
-      margin-top: 0.5rem;
-      font-size: 1.2rem;
-      font-weight: 500;
-      opacity: 0.9;
-    }
+    .item{padding:18px;border-radius:14px;background:linear-gradient(180deg,var(--glass),var(--glass-2));display:flex;align-items:center;gap:14px;border:1px solid rgba(255,255,255,0.03);box-shadow:inset 0 1px 0 rgba(255,255,255,0.02);transition:transform .28s cubic-bezier(.2,.9,.3,1), box-shadow .2s}
+    .item:hover{transform:translateY(-8px);box-shadow:0 18px 40px rgba(2,6,23,0.6)}
 
-    section {
-      max-width: 900px;
-      margin: 2rem auto;
-      background: #fff;
-      border-radius: 16px;
-      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-      padding: 2rem;
-    }
+    .icon{width:56px;height:56px;border-radius:12px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));backdrop-filter: blur(var(--card-blur));}
+    .title{font-weight:700;margin:0;font-size:16px}
+    .desc{margin:2px 0 0 0;font-size:13px;color:rgba(230,238,248,0.7)}
 
-    h2 {
-      color: #0057a0;
-      margin-top: 1.5rem;
+    .actions{margin-left:auto;display:flex;gap:8px}
+    .btn{
+      padding:8px 12px;border-radius:10px;border:0;background:transparent;color:inherit;font-weight:600;border:1px solid rgba(255,255,255,0.06);cursor:pointer;backdrop-filter: blur(4px)
     }
+    .btn.primary{background:var(--accent);color:#061226;border:0}
 
-    ul {
-      padding-left: 1.5rem;
-    }
+    footer{margin-top:18px;text-align:center;color:rgba(230,238,248,0.5);font-size:13px}
 
-    .contact a {
-      display: inline-block;
-      margin-right: 1rem;
-      color: #007bff;
-      text-decoration: none;
-      font-weight: 600;
-    }
+    /* little animated underline for name */
+    .name-underline{display:block;height:6px;border-radius:999px;margin-top:6px;width:120px;background:linear-gradient(90deg,rgba(124,58,237,0.85),rgba(6,182,212,0.85));animation:glide 2.4s infinite alternate}
+    @keyframes glide{from{transform:translateX(0)}to{transform:translateX(18px)}}
+
+    /* subtle floating */
+    .card{animation:float 8s ease-in-out infinite}
+    @keyframes float{0%{transform:translateY(0)}50%{transform:translateY(-6px)}100%{transform:translateY(0)}}
+
   </style>
 </head>
-
 <body>
-  <header>
-    <h1>Sameer Bhatti</h1>
-    <p>Cybersecurity Trainer | AI & Python Developer | C Programmer | Flutter App Developer | Tech Educator</p>
-  </header>
+  <main class="wrap card" role="main" aria-labelledby="page-title">
+    <header>
+      <div class="avatar">SB</div>
+      <div>
+        <h1 id="page-title">Sameer Bhatti</h1>
+        <div class="name-underline" aria-hidden="true"></div>
+        <p class="lead">Suggested Content — quick access</p>
+      </div>
+    </header>
 
-  <section>
-    <h2>Contact</h2>
-    <p class="contact">
-      Email: <a href="mailto:sbhatti.edu@gmail.com" target="_blank">sbhatti.edu@gmail.com</a><br/>
-      LinkedIn: <a href="https://www.linkedin.com/in/bhatti8162/" target="_blank">linkedin.com/in/bhatti8162</a><br/>
-      WhatsApp: <a href="https://wa.me/923102683892" target="_blank">+92 310 2683892</a><br/>
-      Address: Shah Latif Town, Karachi, Sindh, Pakistan
-    </p>
+    <section class="grid" aria-label="Suggested content list">
 
-    <h2>Top Skills</h2>
-    <ul>
-      <li>Cybersecurity Training & Awareness</li>
-      <li>Python Development (Automation, AI, Data)</li>
-      <li>C Programming & Systems Fundamentals</li>
-      <li>Flutter App Development (Cross-Platform Mobile Apps)</li>
-      <li>Tech Education & Mentorship</li>
-    </ul>
+      <article class="item" role="article" aria-labelledby="pdf-title">
+        <div class="icon" aria-hidden="true">
+          <!-- PDF icon -->
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 2h7l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M14 2v6h6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+            <text x="6" y="18" font-size="7" fill="currentColor" font-family="Arial" font-weight="700">PDF</text>
+          </svg>
+        </div>
+        <div>
+          <h3 class="title" id="pdf-title">PDF</h3>
+          <p class="desc">Open any PDF file: resumes, reports, notes, or documents.</p>
+        </div>
+        <div class="actions">
+          <button class="btn" onclick="openPlaceholder('pdf')">Preview</button>
+          <button class="btn primary" onclick="openPlaceholder('pdf')">Open</button>
+        </div>
+      </article>
 
-    <h2>Summary</h2>
-    <p>
-      I am a Cybersecurity Trainer and Tech Educator with expertise in Python, C, and Flutter. I build applications, train students and professionals, and teach digital skills that empower people to work in technology fields. My focus is on making complex concepts simple, practical, and career-focused.
-    </p>
+      <article class="item" role="article" aria-labelledby="yt-title">
+        <div class="icon" aria-hidden="true">
+          <!-- YouTube icon -->
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22 7.5s-.2-1.7-.8-2.4c-.8-1-1.7-1-2.1-1.1C16.7 3.8 12 3.8 12 3.8s-4.7 0-6.9.2c-.4 0-1.3.1-2.1 1.1C2.2 5.8 2 7.5 2 7.5S2 9.4 2 11.2v1.6c0 1.8 0 3.7 0 3.7s.2 1.7.8 2.4c.8 1 1.9 1 2.4 1.1 1.7.2 7 .2 7 .2s4.7 0 6.9-.2c.4 0 1.3-.1 2.1-1.1.6-.7.8-2.4.8-2.4s0-1.9 0-3.7v-1.6c0-1.8 0-3.7 0-3.7z" stroke="currentColor" stroke-width="0.6" fill="currentColor"/>
+            <polygon points="10 9 16 12 10 15" fill="#061226"/>
+          </svg>
+        </div>
+        <div>
+          <h3 class="title" id="yt-title">YouTube Video</h3>
+          <p class="desc">Watch any YouTube video: tutorials, talks, or playlists.</p>
+        </div>
+        <div class="actions">
+          <button class="btn" onclick="openPlaceholder('youtube')">Watch</button>
+          <button class="btn primary" onclick="openPlaceholder('youtube')">Open</button>
+        </div>
+      </article>
 
-    <h2>Experience</h2>
-    <ul>
-      <li><strong>SOS TTI</strong>: Cybersecurity Instructor (2024 – Present) – Teaching cybersecurity and ethical hacking fundamentals.</li>
-      <li><strong>Trusaic</strong>: Test Automation Engineer (2023 – 2024)</li>
-      <li><strong>Whippy</strong>: Test Automation Engineer (2023 – 2024)</li>
-      <li><strong>ERinfo Inc</strong>: Test Automation Engineer (2022 – 2023)</li>
-      <li><strong>RXMG</strong>: Test Automation Engineer (2022)</li>
-      <li><strong>VoIP Terminator</strong>: Sales Development Representative (2019 – 2022)</li>
-    </ul>
+      <article class="item" role="article" aria-labelledby="site-title">
+        <div class="icon" aria-hidden="true">
+          <!-- Website icon -->
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.2"/>
+            <path d="M2 12h20" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+            <path d="M12 2v20" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div>
+          <h3 class="title" id="site-title">Website</h3>
+          <p class="desc">Open any website: portfolio, article, or external link.</p>
+        </div>
+        <div class="actions">
+          <button class="btn" onclick="openPlaceholder('site')">Visit</button>
+          <button class="btn primary" onclick="openPlaceholder('site')">Open</button>
+        </div>
+      </article>
 
-    <h2>Education</h2>
-    <ul>
-      <li><strong>Virtual University of Pakistan</strong>: BSCS (In Progress)</li>
-      <li><strong>Tandojam Degree College</strong>: Intermediate (2018)</li>
-    </ul>
+      <article class="item" role="article" aria-labelledby="other-title">
+        <div class="icon" aria-hidden="true">
+          <!-- Other icon -->
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.2"/>
+            <path d="M7 12h10M7 16h6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div>
+          <h3 class="title" id="other-title">Other</h3>
+          <p class="desc">Use this for anything else: tools, files, or custom links.</p>
+        </div>
+        <div class="actions">
+          <button class="btn" onclick="openPlaceholder('other')">Open</button>
+        </div>
+      </article>
 
-    <h2>Projects</h2>
-    <ul>
-      <li>Cybersecurity Labs – SIEM, IDS/IPS, Vulnerability Scanning</li>
-      <li>AI Projects – Python-based ML models and automation</li>
-      <li>Flutter Mobile Apps – Cross-platform apps with Firebase</li>
-      <li>Open Source – Teaching content and code snippets</li>
-    </ul>
+    </section>
 
-    <h2>Certifications</h2>
-    <ul>
-      <li>Certified in Cybersecurity (ISC2) – 2024</li>
-      <li>SIEM 101 (LetsDefend) – 2025</li>
-      <li>Deep Web and Cybersecurity (EC-Council) – 2023</li>
-      <li>DevSecOps (EC-Council) – 2023</li>
-      <li>Cisco SOC (Coursera)</li>
-      <li>CompTIA Security+ (Udemy)</li>
-    </ul>
-  </section>
+    <footer>Tip: Replace the placeholder actions with real links or embed code.</footer>
+  </main>
+
+  <script>
+    function openPlaceholder(type){
+      const templates={
+        pdf: 'PDF viewer: replace with a link to your PDF or embed using &lt;iframe&gt;.',
+        youtube: 'YouTube: replace with an embed link like https://www.youtube.com/embed/VIDEO_ID',
+        site: 'Website: replace with the URL you want to open in a new tab.',
+        other: 'Other: add whatever link or embed you need.'
+      };
+      const msg=templates[type]||'Open item';
+      // open a small overlay quick preview
+      showToast(msg);
+    }
+
+    function showToast(text){
+      const t=document.createElement('div');
+      t.textContent=text; t.style.position='fixed';t.style.left='50%';t.style.top='18px';t.style.transform='translateX(-50%)';t.style.padding='10px 14px';t.style.borderRadius='10px';t.style.background='linear-gradient(90deg, rgba(124,58,237,0.95), rgba(6,182,212,0.95))';t.style.color='#061226';t.style.fontWeight='700';t.style.boxShadow='0 10px 30px rgba(2,6,23,0.5)';t.style.zIndex=9999;document.body.appendChild(t);
+      setTimeout(()=>{t.style.transition='opacity .4s';t.style.opacity=0;setTimeout(()=>t.remove(),400)},2400);
+    }
+  </script>
 </body>
 </html>
