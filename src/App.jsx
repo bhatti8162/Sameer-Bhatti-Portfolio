@@ -70,10 +70,11 @@ function App() {
               </a>
 
               <a
-                href="#contact"
+                href="https://wa.me/message/EAEADUC7CU35N1"
+                target="_blank"
                 className="px-5 py-2 rounded-lg border border-indigo-400 text-indigo-300 hover:bg-indigo-800/40 transition"
               >
-                Contact
+                Whatsapp Now
               </a>
 
               {/* PDF REsume — KEPT */}
