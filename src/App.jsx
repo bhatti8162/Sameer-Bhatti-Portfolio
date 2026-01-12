@@ -190,55 +190,58 @@ function App() {
         </main>
 
         {/* CTA */}
-        <section className="mt-16 flex justify-center">
-          {/* Project 01 */}
-          <div className="w-80 h-80 p-6 m-6 bg-gray-800 bg-opacity-40 rounded-2xl shadow-lg text-center flex flex-col justify-center">
-            <h2 className="text-xl font-bold mb-3">
-              Hire Remote Full-Stack Developer
-            </h2>
+        <section className="mt-16 px-4">
+          <div
+            className="grid gap-6 justify-items-center
+                  grid-cols-1
+                  sm:grid-cols-2
+                  lg:grid-cols-3"
+          >
+            {/* Card */}
+            <div className="w-full max-w-sm min-h-[20rem] p-6 bg-gray-800/40 rounded-2xl shadow-lg text-center flex flex-col justify-center">
+              <h2 className="text-xl font-bold mb-3">
+                Hire Remote Full-Stack Developer
+              </h2>
 
-            <p className="text-gray-300 text-sm mb-4">
-              I build secure, scalable apps for US clients.
-            </p>
+              <p className="text-gray-300 text-sm mb-4">
+                I build secure, scalable apps for US clients.
+              </p>
 
-            <a
-              href="#contact"
-              className="px-5 py-2 rounded-lg border border-indigo-400 text-indigo-300 hover:bg-indigo-800/40 transition"
-            >
-              Visit
-            </a>
-          </div>
+              <a
+                href="#contact"
+                className="mx-auto px-5 py-2 rounded-lg border border-indigo-400 text-indigo-300 hover:bg-indigo-800/40 transition"
+              >
+                Visit
+              </a>
+            </div>
 
-          {/* Project 02 */}
-          <div className="w-80 h-80 p-6 m-6  bg-gray-800 bg-opacity-40 rounded-2xl shadow-lg text-center flex flex-col justify-center">
-            <h2 className="text-xl font-bold mb-3">Project 02</h2>
+            {/* Card */}
+            <div className="w-full max-w-sm min-h-[20rem] p-6 bg-gray-800/40 rounded-2xl shadow-lg text-center flex flex-col justify-center">
+              <h2 className="text-xl font-bold mb-3">Project 02</h2>
+              <p className="text-gray-300 text-sm mb-4">
+                I build secure, scalable apps for US clients.
+              </p>
+              <a
+                href="#contact"
+                className="mx-auto px-5 py-2 rounded-lg border border-indigo-400 text-indigo-300 hover:bg-indigo-800/40 transition"
+              >
+                Visit
+              </a>
+            </div>
 
-            <p className="text-gray-300 text-sm mb-4">
-              I build secure, scalable apps for US clients.
-            </p>
-
-            <a
-              href="#contact"
-              className="px-5 py-2 rounded-lg border border-indigo-400 text-indigo-300 hover:bg-indigo-800/40 transition"
-            >
-              Visit
-            </a>
-          </div>
-
-          {/* Project 03 */}
-          <div className="w-80 h-80 p-6 m-6  bg-gray-800 bg-opacity-40 rounded-2xl shadow-lg text-center flex flex-col justify-center">
-            <h2 className="text-xl font-bold mb-3">Project 03</h2>
-
-            <p className="text-gray-300 text-sm mb-4">
-              I build secure, scalable apps for US clients.
-            </p>
-
-            <a
-              href="#contact"
-              className="px-5 py-2 rounded-lg border border-indigo-400 text-indigo-300 hover:bg-indigo-800/40 transition"
-            >
-              Visit
-            </a>
+            {/* Card */}
+            <div className="w-full max-w-sm min-h-[20rem] p-6 bg-gray-800/40 rounded-2xl shadow-lg text-center flex flex-col justify-center">
+              <h2 className="text-xl font-bold mb-3">Project 03</h2>
+              <p className="text-gray-300 text-sm mb-4">
+                I build secure, scalable apps for US clients.
+              </p>
+              <a
+                href="#contact"
+                className="mx-auto px-5 py-2 rounded-lg border border-indigo-400 text-indigo-300 hover:bg-indigo-800/40 transition"
+              >
+                Visit
+              </a>
+            </div>
           </div>
         </section>
 
