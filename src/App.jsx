@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import profileImg from './assets/DSC_Dev_bg.jpg';
+import profileImg from './assets/pic.jpg';
 import resumePdf from './assets/FullStack_Sameer_Bhatti.pdf';
 import './App.css';
 
