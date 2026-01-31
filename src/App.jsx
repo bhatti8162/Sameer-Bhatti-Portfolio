@@ -183,8 +183,28 @@ function App() {
             <div className="p-6 bg-gray-800 bg-opacity-40 rounded-2xl shadow-lg">
               <h2 className="text-2xl font-bold mb-4">Certificates</h2>
               <ul className="list-disc ml-5 text-gray-300 space-y-1">
-                <li>Software Engineering — HKUST (Coursera)</li>
-                <li>Certified in Cybersecurity (CC) — ISC²</li>
+                <li>
+                  META — Fullstack Developer ({' '}
+                  <a
+                    className="px-3 py-1 rounded-full bg-gray-800"
+                    href="https://coursera.org/share/100c6c543f8a5d562761b40c3b14dc72"
+                    target="_blank"
+                  >
+                    Verify on Coursera
+                  </a>
+                  )
+                </li>
+                <li>
+                  HKUST - Software Engineering ({' '}
+                  <a
+                    className="px-3 py-1 rounded-full bg-gray-800"
+                    href="https://coursera.org/share/8f5f5756f4e6bd28cfcb533c8648f8aa"
+                    target="_blank"
+                  >
+                    Verify on Coursera
+                  </a>
+                  )
+                </li>
               </ul>
             </div>
           </section>
