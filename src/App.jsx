@@ -229,7 +229,7 @@ function App() {
             {/* Card */}
             <div className="w-full max-w-sm min-h-[20rem] p-6 bg-gray-800/40 rounded-2xl shadow-lg text-center flex flex-col justify-center">
               <h2 className="text-xl font-bold mb-3">
-                Hire Remote Full-Stack Developer
+                Project 01 <br /> Hire Remote Full-Stack Developer
               </h2>
 
               <p className="text-gray-300 text-sm mb-4">
@@ -237,7 +237,8 @@ function App() {
               </p>
 
               <a
-                href="#contact"
+                href="#"
+                target="_blank"
                 className="mx-auto px-5 py-2 rounded-lg border border-indigo-400 text-indigo-300 hover:bg-indigo-800/40 transition"
               >
                 Visit
@@ -246,12 +247,15 @@ function App() {
 
             {/* Card */}
             <div className="w-full max-w-sm min-h-[20rem] p-6 bg-gray-800/40 rounded-2xl shadow-lg text-center flex flex-col justify-center">
-              <h2 className="text-xl font-bold mb-3">Project 02</h2>
+              <h2 className="text-xl font-bold mb-3">
+                Project 02 <br /> Django REST Framework – Multi-Project APIs
+              </h2>
               <p className="text-gray-300 text-sm mb-4">
-                I build secure, scalable apps for US clients.
+                College, Restaurant, Company & User Accounts APIs
               </p>
               <a
-                href="#contact"
+                href="https://github.com/bhatti8162/DRF-Projects"
+                target="_blank"
                 className="mx-auto px-5 py-2 rounded-lg border border-indigo-400 text-indigo-300 hover:bg-indigo-800/40 transition"
               >
                 Visit
@@ -260,12 +264,16 @@ function App() {
 
             {/* Card */}
             <div className="w-full max-w-sm min-h-[20rem] p-6 bg-gray-800/40 rounded-2xl shadow-lg text-center flex flex-col justify-center">
-              <h2 className="text-xl font-bold mb-3">Project 03</h2>
+              <h2 className="text-xl font-bold mb-3">
+                Project 03 <br />
+                Space Invader Game - Python
+              </h2>
               <p className="text-gray-300 text-sm mb-4">
-                I build secure, scalable apps for US clients.
+                2D game with collision and scoring logic
               </p>
               <a
-                href="#contact"
+                href="http://github.com/bhatti8162/space-invader"
+                target="_blank"
                 className="mx-auto px-5 py-2 rounded-lg border border-indigo-400 text-indigo-300 hover:bg-indigo-800/40 transition"
               >
                 Visit
