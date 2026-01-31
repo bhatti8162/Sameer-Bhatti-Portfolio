@@ -68,6 +68,14 @@ function App() {
               >
                 GitHub
               </a>
+              <a
+                href="https://www.coursera.org/user/94501a6b6e8b6e379cae65017126ff24"
+                target="_blank"
+                rel="noreferrer"
+                className="px-5 py-2 rounded-lg border border-indigo-400 text-indigo-300 hover:bg-indigo-800/40 transition"
+              >
+                Coursera
+              </a>
 
               <a
                 href="https://wa.me/message/EAEADUC7CU35N1"
