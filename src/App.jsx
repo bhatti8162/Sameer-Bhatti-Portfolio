@@ -25,7 +25,7 @@ function App() {
             </h1>
 
             <p className="mt-3 text-lg text-gray-300 max-w-xl">
-              Full-Stack Programmer | Software Developer — building scalable and
+              Pyhon Enginerr | Software Developer — building scalable and
               secure apps.
             </p>
 
@@ -292,7 +292,7 @@ function App() {
             Email: sbhatti.dev@gmail.com — Phone: +92 310 2683892
           </p>
           <p className="text-gray-600 text-sm mt-6">
-            © 2025 Sameer Bhatti — Full-Stack Developer
+            © 2025 Sameer Bhatti — Python Engineer
           </p>
         </footer>
       </div>
