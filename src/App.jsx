@@ -25,7 +25,7 @@ function App() {
             </h1>
 
             <p className="mt-3 text-lg text-gray-300 max-w-xl">
-              Pyhon Enginerr | Software Developer — building scalable and
+              Python Engineer | Software Developer — building scalable and
               secure apps.
             </p>
 
