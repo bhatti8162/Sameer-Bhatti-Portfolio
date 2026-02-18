@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import profileImg from './assets/pic.jpg';
-import resumePdf from './assets/FullStack_Sameer_Bhatti.pdf';
+import resumePdf from './assets/Python_Engr_Sameer_Bhatti_8.0.pdf';
 import './App.css';
 
 function App() {
