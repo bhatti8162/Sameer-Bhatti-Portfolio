@@ -107,10 +107,10 @@ function App() {
 
               {[
                 ['Programming', 95],
-                ['Front-end / Back-end', 92],
-                ['MERN Stack', 90],
-                ['ReactJS / NextJS', 88],
+                ['Python Automation', 90],
                 ['Django - Python', 92],
+                ['Front-end / Back-end', 92],
+                ['ReactJS / Tailwind', 88],
                 ['Secure Coding', 90],
                 ['Quality Assurance', 88],
               ].map(([label, value]) => (
